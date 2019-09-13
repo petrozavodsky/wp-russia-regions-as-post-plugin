@@ -1,10 +1,10 @@
-<?php add_action('init', 'region_post_init');
+<?php add_action('init', 'region_post_init'); // Использовать функцию только внутри хука init
 function region_post_init() {
 	$labels = array(
-		'name' => 'Карта образования',
-		'singular_name' => 'Регион',
+		'name' => 'Регионы',
+		'singular_name' => 'Регион', // админ панель Добавить->Функцию
 		'add_new' => 'Добавить регион',
-		'add_new_item' => 'Добавить регион',
+		'add_new_item' => 'Добавить регион', // заголовок тега <title>
 		'edit_item' => 'Редактировать регион',
 		'new_item' => 'Новый регион',
 		'all_items' => 'Все регионы',
@@ -12,22 +12,22 @@ function region_post_init() {
 		'search_items' => 'Искать регион',
 		'not_found' =>  'Нет ничего',
 		'not_found_in_trash' => 'Нет ничего',
-		'menu_name' => 'Регионы'
+		'menu_name' => 'Регионы' // ссылка в меню в админке
 	);
 	$args = array(
 		'labels' => $labels,
         'description' => 'Субъекты РФ',
 		'public' => true,
-		'show_ui' => true,
+		'show_ui' => true, // показывать интерфейс в админке
 		'show_in_rest' => true,
 		'exclude_from_search' => true,
 		'has_archive' => true, 
 		'hierarchical' => true,
 		'capability_type' => 'page',
-		'menu_icon' => 'dashicons-location-alt',
-		'menu_position' => 30,
+		'menu_icon' => 'dashicons-location-alt', // иконка в меню
+		'menu_position' => 30, // порядок в меню
 		'supports' => array('title', 'editor', 'page-attributes'),
-		'rewrite' => array('slug'=>'region'),
+		'rewrite' => true,
         'show_admin_column' => true,
 		'query_var' => true,
 		'can_export' => true
@@ -41,14 +41,15 @@ function region_post_init() {
 add_action('add_meta_boxes', 'metakey_region_fields', 1);
 
 function metakey_region_fields() {
-	add_meta_box( 'metabox', 'Метабоксы', 'ext_region_fields_box_func', 'region', 'normal', 'high');
+	add_meta_box( 'metabox', 'Параметры', 'ext_region_fields_box_func', 'region', 'normal', 'high');
 }
 // код блока
 function ext_region_fields_box_func( $post ){
 ?>
-<textarea id="regioncode" name="ext_region[regioncode]" required ><?php echo get_post_meta($post->ID, 'regioncode', 1); ?></textarea>
+<textarea class="hidden" id="regioncode" name="ext_region[regioncode]" required ><?php echo get_post_meta($post->ID, 'regioncode', 1); ?></textarea>
 <input type="hidden" name="ext_region_fields_nonce" value="<?php echo wp_create_nonce(__FILE__); ?>" />
 <?php }
+
 // включаем обновление полей при сохранении
 add_action('save_post', 'metakey_region_fields_update', 0);
 /* Сохраняем данные, при сохранении поста */
