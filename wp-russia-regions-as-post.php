@@ -128,7 +128,7 @@ function wp_russia_regions_as_post_add_js_css() {
 	if ( is_singular() ) {
 		$post = get_post( get_queried_object_id() );
 		if ( has_shortcode( $post->post_content, 'wp_russia_regions_map' ) ) {
-		    		d(1);
+
 			wp_enqueue_style(
 				'wp_russia_regions_as_post_add_map_css',
 				plugin_dir_url( __FILE__ ) . "public/css/shortcode-style.css",

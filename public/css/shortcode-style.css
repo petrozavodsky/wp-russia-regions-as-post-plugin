@@ -1,3 +1,4 @@
-.wp_russia_regions_as_post-csv a:hover path {
+.wp_russia_regions_as_post-csv a:hover path,
+.wp_russia_regions_as_post-csv a.active path {
     color: #005677;
 }
