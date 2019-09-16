@@ -22,6 +22,16 @@ if (!defined('WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN')) {
     define('WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN', 'wp_russia_regions_as_post');
 }
 
+add_action( 'plugins_loaded', 'wp_russia_regions_as_post_textdomain' );
+
+function wp_russia_regions_as_post_textdomain() {
+	 load_plugin_textdomain(
+	         WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN,
+             false,
+             dirname( plugin_basename( __FILE__ ) ) . '/languages/'
+     );
+}
+
 // Использовать функцию только внутри хука init
 add_action('init', 'wp_russia_regions_as_post_register');
 
