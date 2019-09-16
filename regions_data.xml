@@ -1,120 +1,128 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <rss version="2.0"
-	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
 >
 
-<channel>
-	<language>ru-RU</language>
-	<wp:wxr_version>1.2</wp:wxr_version>
+    <channel>
+        <language>ru-RU</language>
+        <wp:wxr_version>1.2</wp:wxr_version>
 
-		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[region-admin]]></wp:author_login><wp:author_email><![CDATA[petrozavodsky@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[region-admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
-
-
-	<generator>https://wordpress.org/?v=5.2.3</generator>
-
-		<item>
-		<title>Москва</title>
-		<link>http://localhost/region/moscow/</link>
-
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
-
-		<wp:post_name><![CDATA[moscow]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+        <wp:author>
+            <wp:author_id>1</wp:author_id>
+            <wp:author_login><![CDATA[region-admin]]></wp:author_login>
+            <wp:author_email><![CDATA[petrozavodsky@gmail.com]]></wp:author_email>
+            <wp:author_display_name><![CDATA[region-admin]]></wp:author_display_name>
+            <wp:author_first_name><![CDATA[]]></wp:author_first_name>
+            <wp:author_last_name><![CDATA[]]></wp:author_last_name>
+        </wp:author>
 
 
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+        <generator>https://wordpress.org/?v=5.2.3</generator>
+
+        <item>
+            <title>Москва</title>
+            <link>http://localhost/region/moscow/</link>
+
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
+
+            <wp:post_name><![CDATA[moscow]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-MOW" class="st0" d="M247.3,433.8l-1.2-2.3l-1.4,1.9l-2.1,1.1l-0.6,3.4l-4.7-2.1L235,438l-3.1-3.4l-0.9,3.6l-2.9,0.9
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-MOW" class="st0" d="M247.3,433.8l-1.2-2.3l-1.4,1.9l-2.1,1.1l-0.6,3.4l-4.7-2.1L235,438l-3.1-3.4l-0.9,3.6l-2.9,0.9
 		l0.8,4l2.4-1.8l1.8,2.3l3.9-0.2l1.1-2.4l1.3,2.2l2.8-1.5l2.7,1.8l4.3-0.4l0.7-2.8l-1.3-4.2l0.5-1.7
 		C248,434.7,247.9,434.3,247.3,433.8L247.3,433.8z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[77]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[97]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[99]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[177]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[197]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[199]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[777]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[799]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Санкт-Петербург</title>
-		<link>http://localhost/region/saint-petersburg/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[77]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[97]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[99]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[177]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[197]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[199]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[777]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[799]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Санкт-Петербург</title>
+            <link>http://localhost/region/saint-petersburg/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[saint-petersburg]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[saint-petersburg]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-SPE" class="st0" d="M257.6,301.2l-5.1-1.7l-6.7,1.7l-1.7,6.7l1.7,5.1l6.7,3.4l5.1-3.4l3.4-5.1L257.6,301.2z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[78]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[98]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[178]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Ненецкий АО</title>
-		<link>http://localhost/region/nenets/</link>
-
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
-
-		<wp:post_name><![CDATA[nenets]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+            <wp:post_type><![CDATA[region]]></wp:post_type>
 
 
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value>
+                    <![CDATA[<path id="RU-SPE" class="st0" d="M257.6,301.2l-5.1-1.7l-6.7,1.7l-1.7,6.7l1.7,5.1l6.7,3.4l5.1-3.4l3.4-5.1L257.6,301.2z"/>]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[78]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[98]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[178]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Ненецкий АО</title>
+            <link>http://localhost/region/nenets/</link>
+
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
+
+            <wp:post_name><![CDATA[nenets]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-NEN" class="st0" d="M545.9,274.3h-8.4l-6.7,6.7l1.7,6.7l8.4,1.7h1.7l1.7-1.7h1.7l0,0l1.7-1.7v1.7l0,0l-1.7,1.7l0,0
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-NEN" class="st0" d="M545.9,274.3h-8.4l-6.7,6.7l1.7,6.7l8.4,1.7h1.7l1.7-1.7h1.7l0,0l1.7-1.7v1.7l0,0l-1.7,1.7l0,0
 		h1.7l1.7-1.7V281L545.9,274.3z M623.5,313l3.4,1.7v1.7v1.7v1.7l5.1,3.4l3.4-5.1l-1.7-5.1l-1.7-5.1l0,0v-3.4l-1.7-3.4h-3.4v3.4h-1.7
 		h-1.7V313L623.5,313z M576.3,311.4l-5.1-1.7l-6.7-1.7l-8.4,1.7l0,0l1.7,1.7v3.4h-3.4l-1.7-1.7v-1.7l1.7-1.7l-5.1-1.7h-5.1h-1.7
 		l-1.7-1.7l-10.1,1.7l-10.1-1.7l-1.7-1.7v-1.7v1.7l0,0v1.7h-1.7v1.7v3.4l0,0l-1.7-3.4l-3.4-1.7l-1.7-1.7l-6.7,5.1l-6.7,6.7l-8.4-3.4
@@ -126,53 +134,53 @@
 		h-1.7l-1.7,1.7v10.1l-1.7,10.1l0,0l0,0l-1.7-1.7h-1.7l-3.4,1.7l-3.4-1.7H615l-1.7,3.4l-5.1,1.7l-1.7-3.4l1.7-3.4l3.4-1.7h1.7v-3.4
 		l-1.7-3.4h1.7l-11.8-1.7l-10.1,1.7l-3.4-5.1l-10.1-3.4l-6.7,1.7v1.7l-1.7,1.7l-1.7-3.4h-3.4l-1.7,1.7h-1.7l0,0l1.7-1.7v-1.7v-1.7
 		l-3.4-1.7H556l1.7-1.7v-1.7h1.7h1.7l3.4,1.7l1.7-3.4l1.7-3.4h1.7l1.7-1.7v-1.7h-1.7h3.4L576.3,311.4L576.3,311.4L576.3,311.4z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[83]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Ярославская область</title>
-		<link>http://localhost/region/yaroslavl-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[83]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Ярославская область</title>
+            <link>http://localhost/region/yaroslavl-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[yaroslavl-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[yaroslavl-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-YAR" class="st0" d="M293,397.3l1.7-1.7l-5.1-1.7l-1.7,1.7l1.7,1.7H293z M304.8,399h-1.7l-1.7,1.7l-5.1-3.4v6.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-YAR" class="st0" d="M293,397.3l1.7-1.7l-5.1-1.7l-1.7,1.7l1.7,1.7H293z M304.8,399h-1.7l-1.7,1.7l-5.1-3.4v6.7
 		l-1.7,5.1l-3.4,3.4v-1.7v-1.7v-1.7l-5.1,1.7l-1.7-1.7l1.7-1.7h1.7l-1.7-10.1h-3.4l-3.4,1.7l1.7,1.7l-1.7,1.7l-1.7,1.7h-3.4v1.7v1.7
 		l-1.7,3.4v5.1v3.4l1.7,1.7l-5.1,3.4l-5.1,5.1v1.7v1.7v3.4l5.1,5.1l5.1-1.7l10.1-3.4l8.4,3.4l10.1-6.7l11.8-5.1v-1.7l1.7-3.4
 		l-6.7-8.4v-8.4L304.8,399L304.8,399z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[76]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Челябинская область</title>
-		<link>http://localhost/region/chelyabinsk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[76]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Челябинская область</title>
+            <link>http://localhost/region/chelyabinsk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[chelyabinsk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[chelyabinsk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-CHE" class="st0" d="M461.6,592.9v5.1l-3.4,6.7l1.7,1.7l1.7,1.7h-3.4h-1.7h-1.7l-1.7,1.7h-1.7l-3.4-1.7l-1.7,3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-CHE" class="st0" d="M461.6,592.9v5.1l-3.4,6.7l1.7,1.7l1.7,1.7h-3.4h-1.7h-1.7l-1.7,1.7h-1.7l-3.4-1.7l-1.7,3.4
 		l-1.7,1.7h-1.7v-1.7v-1.7l-1.7-1.7l-3.4,1.7v-3.4l1.7-1.7l-5.1-5.1l-5.1,1.7l-1.7,1.7v1.7h-1.7v1.7l3.4,11.8v1.7h3.4h3.4v1.7
 		l1.7,1.7h10.1h8.4l-3.4,5.1l-5.1,5.1l-1.7,3.4l-1.7-1.7l-1.7-1.7l-1.7,1.7H438h-1.7h-1.7l-5.1,8.4l-5.1,8.4l-1.7,1.7l-3.4,3.4v1.7
 		v1.7h-1.7v1.7l1.7,1.7v1.7v1.7h1.7l1.7-1.7l5.1,3.4l5.1,3.4l-3.4,3.4l-3.4,3.4h1.7l6.7,1.7l6.7-1.7l1.7-5.1v-3.4l1.7-1.7h1.7
@@ -180,60 +188,60 @@
 		l1.7,1.7l5.1,1.7l3.4,1.7v1.7l1.7,1.7l1.7-1.7h5.1l5.1,1.7V657l0,0v-1.7l-1.7-1.7l3.4-3.4v-3.4l-5.1-3.4l-6.7-5.1l3.4-3.4l1.7-1.7
 		l1.7-3.4v-1.7h1.7l1.7-1.7h1.7h1.7l1.7-6.7v-8.4l-1.7-3.4v-1.7l-1.7-1.7l-3.4-1.7l0,0h-1.7l-1.7,1.7l-8.4-5.1l-8.4-6.7v-1.7H465
 		h-1.7L461.6,592.9L461.6,592.9z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[74]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[174]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Ульяновская область</title>
-		<link>http://localhost/region/ulyanovsk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[74]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[174]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Ульяновская область</title>
+            <link>http://localhost/region/ulyanovsk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[ulyanovsk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[ulyanovsk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-ULY" class="st0" d="M330.1,545.7l-1.7-3.4l-6.7-1.7v-3.4l-5.1-3.4l-3.4-5.1l-6.7,10.1l-3.4-1.7h-6.7l1.7,6.7l-1.7,6.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-ULY" class="st0" d="M330.1,545.7l-1.7-3.4l-6.7-1.7v-3.4l-5.1-3.4l-3.4-5.1l-6.7,10.1l-3.4-1.7h-6.7l1.7,6.7l-1.7,6.7
 		l1.7,3.4v3.4l-5.1,6.7l-5.1,3.4l5.1,8.4h10.1l1.7,1.7v1.7l3.4-5.1l3.4-8.4h1.7h3.4l3.4-1.7h1.7l3.4,1.7h3.4l3.4,3.4l5.1,3.4V571
 		h1.7h1.7h1.7l3.4-5.1l1.7-3.4l-3.4-5.1v-5.1l-1.7-3.4h-5.1h-3.4L330.1,545.7L330.1,545.7z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[73]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[173]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Тюменская область</title>
-		<link>http://localhost/region/tyumen-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[73]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[173]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Тюменская область</title>
+            <link>http://localhost/region/tyumen-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[tyumen-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[tyumen-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-TYU" class="st0" d="M601.5,579.4l-6.7,1.7l-1.7,1.7v1.7h-3.4l-3.4-1.7H583h-5.1l-1.7-1.7h-1.7l-3.4,1.7l-1.7,3.4h-5.1
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-TYU" class="st0" d="M601.5,579.4l-6.7,1.7l-1.7,1.7v1.7h-3.4l-3.4-1.7H583h-5.1l-1.7-1.7h-1.7l-3.4,1.7l-1.7,3.4h-5.1
 		l-5.1-1.7v3.4l-1.7,1.7v3.4v3.4l-3.4,1.7H551h-3.4l0,0v-1.7h-5.1l-3.4,1.7l-3.4,6.7l-1.7,8.4v1.7h1.7l-1.7,1.7h-1.7h-1.7l-1.7,5.1
 		v5.1l3.4,1.7l3.4,1.7v3.4v3.4h1.7h3.4v1.7l1.7,1.7l1.7-1.7l1.7,1.7l3.4,5.1l1.7,5.1l1.7,1.7l3.4,1.7l0,0h1.7l1.7,5.1l3.4,6.7l0,0
 		h1.7v-1.7l1.7,1.7v1.7h1.7l3.4,1.7l3.4,3.4l1.7,3.4h3.4l1.7-1.7v-3.4h1.7l3.4-1.7l-1.7-1.7v-1.7h1.7h1.7v-1.7l-1.7-1.7l1.7-1.7
@@ -241,137 +249,137 @@
 		l3.4-1.7v-5.1v-5.1l5.1-3.4l5.1-3.4l1.7,1.7l1.7,3.4l-1.7,1.7v3.4h3.4l3.4,1.7l3.4,1.7l5.1,3.4l1.7-1.7h3.4l11.8,3.4l13.5-5.1
 		l-3.4-3.4h-5.1l-1.7-1.7l-1.7-1.7l-5.1-3.4l-3.4-1.7v-3.4l1.7-5.1h-3.4l-3.4-3.4l1.7-1.7v-1.7l-1.7-1.7h-1.7l-1.7-6.7l-3.4-5.1
 		l-1.7-1.7h-1.7l-1.7-1.7l-5.1-1.7h-1.7h-3.4l-1.7-1.7l-1.7-3.4h-3.4l-1.7,1.7L601.5,579.4L601.5,579.4z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[72]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Тульская область</title>
-		<link>http://localhost/region/tula-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[72]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Тульская область</title>
+            <link>http://localhost/region/tula-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[tula-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[tula-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-TUL" class="st0" d="M220.2,453h-2.7l-0.5,1.7l-1.9,1.7h-1.3l-0.8-1.7l-4-1.7l-3.9-1.7h-0.5l-0.7,1.7h-3.4l-2.9,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-TUL" class="st0" d="M220.2,453h-2.7l-0.5,1.7l-1.9,1.7h-1.3l-0.8-1.7l-4-1.7l-3.9-1.7h-0.5l-0.7,1.7h-3.4l-2.9,1.7
 		l-0.8,1.7l-1.2,1.7l1.2,8.4l3.7,6.7l1.9,1.7l1.7,1.7l-0.3,3.4l0.2,5.1l2.9,3.4l2.2,1.7h3.2l0.7-1.7l1.3-1.7h1.3h1.3l2.2-1.7h2.7
 		l8.3-13.5l-0.2-3.4l2.5-3.4h1.7l-1.7-1.7v-1.7V458v-1.7h-2.5l-3.5-5.1l0,0h-2l-2.4,1.7L220.2,453L220.2,453z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[71]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Свердловская область</title>
-		<link>http://localhost/region/sverdlovsk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[71]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Свердловская область</title>
+            <link>http://localhost/region/sverdlovsk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[sverdlovsk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[sverdlovsk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-SVE" class="st0" d="M544.2,496.8l-5.1-3.4l-5.1-3.4v-3.4V485l-1.7-1.7v-1.7l-3.4,1.7v1.7l-5.1,6.7l-3.4,6.7v1.7v1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-SVE" class="st0" d="M544.2,496.8l-5.1-3.4l-5.1-3.4v-3.4V485l-1.7-1.7v-1.7l-3.4,1.7v1.7l-5.1,6.7l-3.4,6.7v1.7v1.7
 		l-8.4,8.4l-8.4,8.4l-3.4,1.7l-3.4,1.7l-5.1,5.1l3.4,8.4l-3.4,5.1v5.1v1.7l0,0l-5.1,5.1l-8.4,1.7l-1.7,5.1v3.4h-5.1l-3.4-3.4
 		l-3.4,3.4l-3.4,5.1h-8.4l-3.4,1.7l0,0v1.7l-1.7,5.1l-3.4,3.4v1.7v3.4h1.7l1.7,1.7l6.7,3.4l5.1,3.4h1.7l0,0l1.7-1.7h1.7h1.7v1.7
 		l8.4,6.7l8.4,5.1l1.7-1.7h1.7l0,0l3.4,1.7l1.7,1.7v1.7l1.7,3.4l5.1-3.4l5.1-1.7l3.4,1.7l3.4,3.4h1.7l0,0h1.7l1.7,1.7l3.4,3.4
 		l5.1-3.4h8.4l-1.7,3.4h1.7h1.7l1.7-1.7h-1.7v-1.7l1.7-8.4l3.4-6.7l3.4-1.7h5.1v1.7l0,0h3.4h3.4l3.4-1.7v-3.4v-3.4l1.7-3.4v-1.7
 		v-3.4l-1.7-1.7V571v-6.7l-5.1-3.4l-5.1-5.1l1.7-5.1l1.7-6.7v-3.4l-1.7-1.7l0,0v-5.1v-3.4l1.7-6.7l3.4-6.7L551,512l-1.7-3.4
 		L544.2,496.8L544.2,496.8z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[66]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[96]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[196]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Рязанская область</title>
-		<link>http://localhost/region/ryazan-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[66]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[96]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[196]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Рязанская область</title>
+            <link>http://localhost/region/ryazan-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[ryazan-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[ryazan-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-RYA" class="st0" d="M257.6,468.1l-3.4-1.7v1.7h-1.7h-1.7h-1.7h-5.1l-3.4,1.7h-1.7l-1.7-1.7l-1.7,1.7l-3.4,1.7H230
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-RYA" class="st0" d="M257.6,468.1l-3.4-1.7v1.7h-1.7h-1.7h-1.7h-5.1l-3.4,1.7h-1.7l-1.7-1.7l-1.7,1.7l-3.4,1.7H230
 		l-8.3,13.5l1.2,3.4v3.4h3.7l3.9,1.7l-0.5,3.4l0.7,3.4l3.4,1.7h5.1l1.7,3.4l1.7,1.7h3.4l1.7-1.7l10.1,5.1h1.7h1.7l1.7-1.7l0,0v-1.7
 		l1.7,1.7h3.4l0,0l-1.7-3.4h-3.4l3.4-1.7h3.4l1.7-1.7l3.4-1.7v-3.4l0,0l1.7-3.4v-3.4l-3.4-1.7h-1.7l0,0l1.7-1.7V485v-1.7l-6.7-8.4
 		l-5.1-6.7L257.6,468.1L257.6,468.1z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[62]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Орловская область</title>
-		<link>http://localhost/region/orel-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[62]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Орловская область</title>
+            <link>http://localhost/region/orel-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[orel-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[orel-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-ORL" class="st0" d="M195.6,458l-6.7-1.7l-6.7-1.7l-0.7,1.7h-1.2l-3.7,1.7h-2.7l-0.7,1.7l-0.5,3.4l-4,1.7l-1.9,3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-ORL" class="st0" d="M195.6,458l-6.7-1.7l-6.7-1.7l-0.7,1.7h-1.2l-3.7,1.7h-2.7l-0.7,1.7l-0.5,3.4l-4,1.7l-1.9,3.4
 		l2.2,1.7l2.9,1.7v1.7v3.4l4.4,1.7l3.2,1.7l0.2,3.4l0.3,5.1l1.7,1.7l1.7,1.7l-0.5,1.7v3.4h1.3h1.2l0.5,1.7h1.2l5.6-1.7l2,1.7
 		l0.5-3.4l-0.2-1.7l0.8-1.7l1-3.4l7.1-3.4l-0.2-5.1l0.3-3.4l-1.7-1.7l-1.9-1.7l-3.7-8.4L195.6,458L195.6,458z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[57]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Омская область</title>
-		<link>http://localhost/region/omsk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[57]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Омская область</title>
+            <link>http://localhost/region/omsk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[omsk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[omsk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-OMS" class="st0" d="M660.6,623.3l-13.5,5.1l-11.8-3.4h-3.4l-1.7,1.7l-5.1-3.4l-3.4-1.7l-3.4-1.7H615v-3.4l1.7-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-OMS" class="st0" d="M660.6,623.3l-13.5,5.1l-11.8-3.4h-3.4l-1.7,1.7l-5.1-3.4l-3.4-1.7l-3.4-1.7H615v-3.4l1.7-1.7
 		l-1.7-3.4l-1.7-1.7l-5.1,3.4l-5.1,3.4v6.7v3.4l-3.4,1.7l-1.7,1.7l1.7,1.7h3.4h1.7v1.7l1.7,13.5h-5.1l-3.4-1.7v1.7v1.7v1.7h-1.7
 		l-1.7,1.7v1.7v1.7h-1.7l0,0l-1.7,1.7v1.7l-3.4,1.7l-1.7,1.7l1.7,1.7l-1.7,1.7l0,0h-1.7v1.7l1.7,1.7l-3.4,1.7h-1.7v3.4l3.4,5.1
 		l-1.7,8.4v3.4h1.7l-5.1,6.7l1.7,3.4l1.7,1.7l1.7,1.7h1.7l1.7-1.7h1.7v1.7h1.7v-1.7l1.7-1.7v5.1v6.7l3.4-1.7v-1.7l3.4,1.7l3.4,3.4
@@ -379,233 +387,233 @@
 		l-1.7-5.1l-1.7-3.4l1.7-8.4l3.4-3.4l-1.7-1.7v-3.4h1.7h1.7l0,0l3.4-3.4l3.4-1.7h5.1h1.7v-3.4l-1.7-3.4l1.7-3.4l3.4-1.7v-1.7v-1.7
 		l1.7-3.4l1.7-1.7V657l-1.7-1.7l-1.7-3.4l1.7-1.7v-1.7v-1.7l-1.7-3.4v-1.7v-1.7v-3.4l-1.7-1.7v-1.7h1.7v-1.7v-3.4h1.7v-3.4
 		L660.6,623.3z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[55]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Новгородская область</title>
-		<link>http://localhost/region/novgorod-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[55]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Новгородская область</title>
+            <link>http://localhost/region/novgorod-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[novgorod-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[novgorod-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-NGR" class="st0" d="M242.4,331.6v-1.7h-5.1l-3.4,1.7l-1.7-3.4l-2.4-1.7l-3.2,1.7h-2.7l-8.4,3.4l1.2,6.7l1.7,5.1
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-NGR" class="st0" d="M242.4,331.6v-1.7h-5.1l-3.4,1.7l-1.7-3.4l-2.4-1.7l-3.2,1.7h-2.7l-8.4,3.4l1.2,6.7l1.7,5.1
 		l-1.5,1.7h-2l-0.2,1.7l-0.3,1.7l-5.1,1.7l-0.8,3.4l-3,3.4l0.3,3.4l2.2,3.4l2.4,1.7l9.4,3.4l9.3,1.7l3.2,1.7l1.7,1.7l0,0l5.1-1.7
 		l5.1-1.7l1.7-1.7l1.7-1.7l5.1,3.4l3.4,5.1l0,0h1.7l1.7,1.7l3.4,1.7l1.7-1.7h1.7l3.4,1.7l1.7,3.4h1.7l3.4,1.7v-5.1v-5.1l-1.7-1.7
 		h-1.7v-1.7h-1.7V367l1.7-5.1l-3.4-5.1l-1.7-3.4v-5.1l-3.4-3.4v-1.7l-1.7-1.7h-3.4h-3.4v-3.4V335l-1.7-1.7l-1.7-1.7l0,0v-1.7
 		l-3.4,1.7l-3.4,1.7L242.4,331.6L242.4,331.6z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[53]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Липецкая область</title>
-		<link>http://localhost/region/lipetsk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[53]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Липецкая область</title>
+            <link>http://localhost/region/lipetsk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[lipetsk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[lipetsk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-LIP" class="st0" d="M221.7,485H219l-2.2,1.7h-1.3h-1.3l-1.3,1.7l-0.7,1.7h-3.2l-2.2-1.7l-2.9-3.4l-3.7,1.7l-3.4,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-LIP" class="st0" d="M221.7,485H219l-2.2,1.7h-1.3h-1.3l-1.3,1.7l-0.7,1.7h-3.2l-2.2-1.7l-2.9-3.4l-3.7,1.7l-3.4,1.7
 		l-1,3.4l-0.8,1.7l0.2,3.4l-0.5,1.7l-2-1.7l-5.6,1.7l1,3.4l3.2,3.4l4.7,1.7l4,1.7v1.7h-0.2l1.5,1.7h2l1.5,3.4l-0.5,1.7l4.2,3.4
 		l4.6,5.1l3.2-1.7l2.7-1.7l-1.7-10.1l5.9-6.7l7.4-5.1l-0.7-3.4l0.5-3.4l-3.9-1.7h-3.7v-3.4L221.7,485L221.7,485z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[48]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Курская область</title>
-		<link>http://localhost/region/kursk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[48]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Курская область</title>
+            <link>http://localhost/region/kursk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[kursk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[kursk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KRS" class="st0" d="M171.8,473.2v-1.7l-2.9-1.7l-2.2-1.7h-4.2h-0.7h-1H160l-1.2,1.7l-3-3.4l-3.2,3.4l-1.7,1.7l-3-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KRS" class="st0" d="M171.8,473.2v-1.7l-2.9-1.7l-2.2-1.7h-4.2h-0.7h-1H160l-1.2,1.7l-3-3.4l-3.2,3.4l-1.7,1.7l-3-1.7
 		l-0.5,1.7l-0.3,1.7l-4.2,3.4l2.9,5.1l3.9,5.1l-0.5,1.7l-0.8,1.7h0.8l0.5,1.7h-0.8l-0.8,1.7l3.2,3.4h3.9h1h1.2l1.5,3.4l1.9,1.7
 		l7.9,3.4l10.1,5.1l1.5,1.7l1.5,3.4l2.4-3.4l1.9-3.4l2.2,1.7h2h0.5v-1.7l1-1.7l-0.3-1.7l0,0l-3.2-3.4l-1-3.4h-1.2l-0.5-1.7h-1.2
 		h-1.3v-1.7l0.5-1.7l-1.7-3.4l-1.7-1.7l-0.3-5.1l-0.2-3.4l-3.2-1.7l-4.4-1.7L171.8,473.2L171.8,473.2z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[46]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Курганская область</title>
-		<link>http://localhost/region/kurgan-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[46]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Курганская область</title>
+            <link>http://localhost/region/kurgan-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[kurgan-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[kurgan-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KGN" class="st0" d="M532.4,613.1l-8.4,1.7l-5.1,1.7l-3.4-3.4l-1.7-1.7h-1.7l0,0h-1.7l-3.4-3.4l-3.4-1.7l-5.1,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KGN" class="st0" d="M532.4,613.1l-8.4,1.7l-5.1,1.7l-3.4-3.4l-1.7-1.7h-1.7l0,0h-1.7l-3.4-3.4l-3.4-1.7l-5.1,1.7
 		l-5.1,3.4v8.4l-1.7,6.7h-1.7h-1.7l-1.7,1.7h-1.7v1.7l-1.7,3.4l-1.7,1.7l-3.4,3.4l6.7,5.1l5.1,3.4v3.4l-3.4,1.7l1.7,1.7v1.7v1.7v1.7
 		l8.4,1.7l8.4,1.7l3.4,1.7l1.7,1.7l1.7-1.7l1.7-1.7h3.4l5.1,1.7l1.7,1.7l13.5,1.7l13.5,1.7l1.7-1.7l1.7-1.7h1.7l3.4,1.7l1.7-1.7h1.7
 		l-3.4-6.7l-1.7-5.1H556l0,0l-3.4-1.7l-1.7-1.7l-1.7-5.1l-3.4-5.1l-1.7-1.7l-1.7,1.7l-1.7-1.7v-1.7h-3.4h-1.7v-3.4V630l-3.4-1.7
 		l-3.4-1.7v-6.7l1.7-3.4L532.4,613.1z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[45]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Калининградская область</title>
-		<link>http://localhost/region/kaliningrad-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[45]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Калининградская область</title>
+            <link>http://localhost/region/kaliningrad-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[kaliningrad-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[kaliningrad-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KGD" class="st0" d="M76.2,282.7L76.2,282.7h4l0,0H76.2z M83.8,281l2-1.7L83.8,281l-1.9,1.7h0.2L83.8,281z
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KGD" class="st0" d="M76.2,282.7L76.2,282.7h4l0,0H76.2z M83.8,281l2-1.7L83.8,281l-1.9,1.7h0.2L83.8,281z
 		 M100.5,286.1L100.5,286.1l-9.6-1.7l-2.4-3.4l-2.7-1.7l-2,1.7l-1.7,1.7h0.7l1.9,5.1l-3.9-1.7l-5.1-1.7l7.1,13.5l8.1,11.8l4.7,6.7
 		h0.8h0.7l1.9-1.7l5.9-1.7l-1.5-11.8l-0.5-5.1l-0.2-5.1l-0.8-1.7h-1h-1.2l-1.9,1.7l-1.9,1.7l-3-3.4l-1.2-3.4h0.8h1.2H99H100.5z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[39]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[91]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Ивановская область</title>
-		<link>http://localhost/region/ivanovo-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[39]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[91]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Ивановская область</title>
+            <link>http://localhost/region/ivanovo-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[ivanovo-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[ivanovo-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-IVA" class="st0" d="M320,451.3l-3.4-1.7l-3.4-1.7l-1.7-3.4l-1.7-3.4l-1.7,1.7l-3.4,1.7l-11.8-6.7l-8.4-3.4l-8.4,3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-IVA" class="st0" d="M320,451.3l-3.4-1.7l-3.4-1.7l-1.7-3.4l-1.7-3.4l-1.7,1.7l-3.4,1.7l-11.8-6.7l-8.4-3.4l-8.4,3.4
 		l0,0l1.7,5.1l-1.7,6.7h3.4h3.4l1.7,3.4l1.7,3.4l5.1,5.1h1.7l0,0v3.4v1.7l3.4,1.7l3.4,1.7h1.7l1.7,1.7l1.7-1.7l3.4-3.4l3.4,1.7
 		l3.4,1.7l3.4-1.7l1.7-3.4l3.4-1.7h1.7v-1.7l-3.4-5.1h-5.1l1.7-1.7L320,451.3L320,451.3z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[37]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Брянская область</title>
-		<link>http://localhost/region/bryansk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[37]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Брянская область</title>
+            <link>http://localhost/region/bryansk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[bryansk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[bryansk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-BRY" class="st0" d="M168.1,429.4l-1.7,1.7h-1.9h-1.2h-0.5h-1.7h-1.7l-3.2-1.7h-3.5l-2.9-5.1l-5.1-1.7l-1.5,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-BRY" class="st0" d="M168.1,429.4l-1.7,1.7h-1.9h-1.2h-0.5h-1.7h-1.7l-3.2-1.7h-3.5l-2.9-5.1l-5.1-1.7l-1.5,1.7
 		l-0.5,3.4l-1,1.7h-1.2l-2.5,3.4l-2.7,3.4l-1.5,3.4h-1.2l1.3,1.7l-0.3,1.7h1l4.2,1.7l3.2-1.7l1.5,1.7l1,3.4l3.2,1.7l2.7,1.7l4,5.1
 		l0.5,5.1l-2.2,3.4l-0.3,5.1l3.2-3.4l3,3.4l1.2-1.7l0.8-1.7l1,1.7h0.7l4.2-1.7l1.9-1.7l4-1.7l0.5-3.4l0.7-3.4l2.7,1.7l3.7-1.7h1.2
 		l0.7-1.7l-3.9-6.7l1.7-3.4l2.7-1.7l-1.7-8.4l-1-6.7l-5.9,1.7L168.1,429.4L168.1,429.4z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[32]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Астраханская область</title>
-		<link>http://localhost/region/astrakhan-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[32]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Астраханская область</title>
+            <link>http://localhost/region/astrakhan-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[astrakhan-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[astrakhan-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-AST" class="st0" d="M219.2,626.6H217l-1.9-1.7l-0.3,1.7h-0.3l-1.3-1.7h-2.2l-2.9,1.7l1.7,3.4l1,5.1l2,1.7l1.3,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-AST" class="st0" d="M219.2,626.6H217l-1.9-1.7l-0.3,1.7h-0.3l-1.3-1.7h-2.2l-2.9,1.7l1.7,3.4l1,5.1l2,1.7l1.3,1.7
 		l-2.2,1.7l-1.5,3.4l0.5,5.1l1.7,3.4h4.4l3.5,3.4h-2.9L214,657l-0.8,8.4l-0.7,6.7l-6.1,1.7h-6.2l0.3,1.7l1.7,1.7l-0.7,1.7l-0.5,1.7
 		l1.7,1.7l1.2,1.7l-5.7,1.7l-1.5,5.1l0.7,1.7h0.7h1.3h1.3l1.2,1.7l1.2,1.7v1.7h0.5l0,0h0.5h0.7l-0.3,1.7h0.3h1.2l1-1.7l4.9,3.4
 		l0.2,1.7h0.2l1.9-1.7h0.5h0.3l-0.3,1.7l1.2-1.7l1.7-1.7l1,1.7l-0.2,1.7l-1.3,1.7l-0.7,1.7l2-1.7l2-1.7l4.7-3.4l4.9-1.7l0.8,1.7
 		l-3-13.5h1l2,3.4h3.4l1.7-11.8v-13.5l-3.4-3.4l-2.7-3.4l-1.7,1.7l-1.7-1.7l1.5-5.1l2.9-3.4l-0.7-5.1l-1.7-5.1l4-3.4l-1.7-3.4
 		l-1-3.4l-5.1-1.7L219.2,626.6L219.2,626.6z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[30]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Хабаровский край</title>
-		<link>http://localhost/region/khabarovsk-krai/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[30]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Хабаровский край</title>
+            <link>http://localhost/region/khabarovsk-krai/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[khabarovsk-krai]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[khabarovsk-krai]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KHA" class="st0" d="M1422.6,520.4l-3.4-3.4l-1.7-1.7l-1.7,1.7l-1.7,1.7l-1.7-1.7h-3.4l-1.7,3.4l-3.4,5.1l-1.7-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KHA" class="st0" d="M1422.6,520.4l-3.4-3.4l-1.7-1.7l-1.7,1.7l-1.7,1.7l-1.7-1.7h-3.4l-1.7,3.4l-3.4,5.1l-1.7-1.7
 		l-1.7-1.7l-1.7,1.7h-3.4l-8.4-3.4h-6.7l-1.7,10.1v10.1l-1.7,1.7l-3.4,1.7v1.7v1.7l-1.7,1.7l-1.7,1.7v1.7v1.7l-1.7,6.7l3.4,5.1
 		l1.7,8.4l1.7,6.7l3.4,3.4l1.7,5.1l-1.7,1.7l-3.4-3.4l-1.7,1.7l-1.7,1.7l-1.7,6.7l-6.7,5.1l0,0l-3.4,1.7h-1.7l-3.4-1.7l0,0l-1.7,1.7
 		v3.4v1.7l-1.7,1.7l-8.4,3.4l-8.4,3.4h-1.7h-1.7l-3.4,3.4l-1.7,3.4l-1.7,10.1l-1.7,5.1l1.7,6.7h-3.4h-1.7l3.4,5.1l5.1,3.4l-1.7,1.7
@@ -626,132 +634,132 @@
 		l-1.7-1.7l1.7-3.4v-5.1l1.7-1.7l3.4-8.4l3.4-6.7l1.7-3.4v-3.4l1.7-1.7l1.7-3.4v-3.4v-5.1l1.7-6.7l3.4-3.4l1.7-13.5l8.4-11.8h1.7
 		l1.7-1.7l1.7-1.7l1.7-1.7l8.4-3.4l8.4-5.1h1.7l1.7-1.7h1.7v3.4l3.4,1.7l1.7-3.4l-1.7-5.1h3.4h3.4v-3.4v-1.7l-5.1-5.1l-6.7-3.4h-6.7
 		l-5.1-1.7v-6.7l5.1-1.7l-1.7-3.4v-1.7v-1.7l1.7-1.7l-5.1-8.4l-10.1-6.7l-6.7,1.7l-8.4,1.7v5.1L1422.6,520.4L1422.6,520.4z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[27]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Чечня</title>
-		<link>http://localhost/region/chechnya/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[27]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Чечня</title>
+            <link>http://localhost/region/chechnya/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[chechnya]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[chechnya]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-CE" class="st0" d="M151.1,700.8l-0.7-1.7l-2.5,1.7l-3.7,1.7h-1.5l1.3,1.7l3.7,1.7l-3.5,8.4H144l0,0l0,0h-0.2l-0.7,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-CE" class="st0" d="M151.1,700.8l-0.7-1.7l-2.5,1.7l-3.7,1.7h-1.5l1.3,1.7l3.7,1.7l-3.5,8.4H144l0,0l0,0h-0.2l-0.7,1.7
 		l0,0l-5.4,1.7L133,716l-0.7-1.7h-1h-2.2h-0.8l0.5,1.7l-0.3,1.7h2.4l2.7,3.4l0.8,3.4l0.3,1.7l1.9,1.7l1.9,3.4l3.5-1.7h3.7l1.9,1.7
 		l0.7-1.7h0.8h2.5h2.7l1.7-3.4l2.9-5.1l4.2-1.7l3.7-1.7l0.5-3.4l-0.8-3.4h-2.9h-2.9l0.2-1.7l0.5-1.7h-2.2l-2.4-1.7l-0.2-1.7
 		l-0.3-1.7h-0.8h-1.7h-1.3L151.1,700.8L151.1,700.8z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[95]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Удмуртия</title>
-		<link>http://localhost/region/udmurtia/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[95]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Удмуртия</title>
+            <link>http://localhost/region/udmurtia/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[udmurtia]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[udmurtia]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-UD" class="st0" d="M434.6,515.4l-3.4-1.7l-1.7-1.7v-1.7l-1.7-1.7h-1.7h-1.7l-3.4-1.7l-3.4-3.4l-6.7,5.1l-3.4,8.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-UD" class="st0" d="M434.6,515.4l-3.4-1.7l-1.7-1.7v-1.7l-1.7-1.7h-1.7h-1.7l-3.4-1.7l-3.4-3.4l-6.7,5.1l-3.4,8.4
 		l-3.4,1.7h-3.4h-1.7l-3.4-1.7l-3.4,5.1l-1.7,6.7l-1.7,1.7h-3.4l-1.7,6.7l-1.7,5.1l1.7,1.7h-1.7l-3.4,1.7l1.7,1.7h1.7l3.4,3.4h3.4
 		h1.7v1.7h1.7l0,0l1.7,1.7l3.4-1.7v-1.7l-1.7-1.7l3.4-1.7l3.4,1.7h-1.7v3.4v3.4l1.7-1.7l3.4,1.7l-5.1,3.4h-5.1l1.7,3.4h1.7l3.4,3.4
 		l1.7,3.4l3.4,1.7l3.4-1.7l5.1-1.7l5.1-1.7l-1.7-3.4l-1.7-5.1h-1.7l-1.7,1.7v-8.4l1.7-1.7h1.7l1.7-1.7v-1.7l1.7,1.7l1.7-1.7
 		l6.7-15.2L434.6,515.4L434.6,515.4z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[18]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Северная Осетия</title>
-		<link>http://localhost/region/north-ossetia/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[18]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Северная Осетия</title>
+            <link>http://localhost/region/north-ossetia/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[north-ossetia]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[north-ossetia]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-SE" class="st0" d="M137.2,699.1l-2.5,1.7h-2l-1.3-1.7h-1.7l-1.9,1.7l-1-1.7l-1.3-1.7l-3.7,1.7l-3.9,1.7l-1.5-1.7h-1.5
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-SE" class="st0" d="M137.2,699.1l-2.5,1.7h-2l-1.3-1.7h-1.7l-1.9,1.7l-1-1.7l-1.3-1.7l-3.7,1.7l-3.9,1.7l-1.5-1.7h-1.5
 		l2.5,8.4l0.2,3.4l4.9,1.7l5.9,1.7h0.8h2.2h3.5l1.3-5.1l-1.7-1.7l1.9-3.4l2.7-3.4h0.8h0.5l3.7,1.7l-0.7-5.1l-4.2-3.4l-2,3.4
 		L137.2,699.1z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[15]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Мордовия</title>
-		<link>http://localhost/region/mordovia/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[15]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Мордовия</title>
+            <link>http://localhost/region/mordovia/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[mordovia]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[mordovia]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-MO" class="st0" d="M309.9,515.4l-5.1,1.7l-3.4,1.7h-1.7V517l-3.4,1.7l-3.4,1.7l-3.4-6.7l-3.4-11.8l-3.4-1.7h-3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-MO" class="st0" d="M309.9,515.4l-5.1,1.7l-3.4,1.7h-1.7V517l-3.4,1.7l-3.4,1.7l-3.4-6.7l-3.4-11.8l-3.4-1.7h-3.4
 		l-1.7-1.7l-3.4-3.4v1.7v3.4l-3.4,1.7l-1.7,1.7H266h-3.4l3.4,1.7l1.7,3.4l0,0l-3.4-1.7h-1.7l0,0v1.7l-3.4,1.7l3.4,5.1l3.4,3.4
 		l1.7-1.7l1.7-1.7l3.4,6.7l5.1,10.1h3.4l3.4-3.4l5.1,5.1l6.7,3.4h6.7l3.4,1.7l6.7-10.1l1.7-6.7h-1.7v-1.7h-1.7l-1.7-1.7l1.7-1.7
 		L309.9,515.4L309.9,515.4z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[13]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[113]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Карелия</title>
-		<link>http://localhost/region/karelia/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[13]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[113]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Карелия</title>
+            <link>http://localhost/region/karelia/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[karelia]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[karelia]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KR" class="st0" d="M372.3,208.5l-6.7-8.4l-5.1,11.8l-6.7,8.4H352h-3.4l-5.1,3.4h-1.7v1.7l-1.7,1.7l-5.1,1.7l-1.7,5.1
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KR" class="st0" d="M372.3,208.5l-6.7-8.4l-5.1,11.8l-6.7,8.4H352h-3.4l-5.1,3.4h-1.7v1.7l-1.7,1.7l-5.1,1.7l-1.7,5.1
 		l1.7,1.7l0,0l-1.7,1.7l-5.1,5.1l-1.7,6.7l-5.1,1.7h-5.1l-1.7,11.8l-1.7,13.5l-21.9,3.4l-23.6,1.7v3.4l3.4,5.1v-1.7l1.7,1.7h1.7h5.1
 		h5.1l1.7-1.7l0,0l1.7,16.9l-5.1,18.5h3.4h3.4h3.4l1.7,1.7h3.4l-1.7-3.4v-1.7h1.7l0,0l3.4,3.4l3.4,3.4h3.4l1.7,1.7l1.7,6.7l0,0
 		l1.7,1.7l1.7-5.1l-1.7-8.4l1.7-8.4v1.7h1.7l1.7-3.4l1.7-3.4v5.1h1.7l1.7-5.1l1.7-3.4v1.7v1.7v1.7l0,0l1.7-3.4l1.7-1.7l-1.7,5.1
@@ -760,212 +768,213 @@
 		l1.7-3.4l1.7-5.1l1.7-5.1l1.7,1.7l1.7,1.7l3.4-1.7l3.4-3.4v-3.4l1.7-3.4v-3.4v-1.7h-1.7h-1.7v-5.1v-3.4l1.7-1.7l0,0l6.7-8.4
 		l1.7-3.4l1.7-5.1h1.7l1.7,1.7l3.4-3.4l1.7-1.7v1.7h1.7l1.7-10.1l-3.4-10.1h1.7h3.4l-1.7-3.4l-1.7-3.4l1.7-1.7h-1.7l-1.7-1.7
 		l-5.1,1.7l-1.7-5.1l1.7-5.1L372.3,208.5L372.3,208.5z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[10]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Калмыкия</title>
-		<link>http://localhost/region/kalmykia/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[10]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Калмыкия</title>
+            <link>http://localhost/region/kalmykia/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[kalmykia]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[kalmykia]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KL" class="st0" d="M209.7,630l-1.7-3.4h-2.7H203v-3.4l-2.5-1.7l-1.2,3.4l-2.2,3.4l-6.2-3.4l-8.3,3.4l-1,1.7l2.9,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KL" class="st0" d="M209.7,630l-1.7-3.4h-2.7H203v-3.4l-2.5-1.7l-1.2,3.4l-2.2,3.4l-6.2-3.4l-8.3,3.4l-1,1.7l2.9,1.7
 		h5.1l-2.4,5.1l-4.7,3.4l-0.3,1.7l-0.3,1.7h-4.2h-4.4l-1.3,3.4l-1.9,1.7h-0.7l-0.8-1.7l-2.5,1.7l-3-1.7l-5.2-11.8l-7.2-5.1l-4.6,1.7
 		l-6.1,1.7l1.2,1.7h1.7l-0.2,1.7l0.3,1.7l2-1.7h2.2l0.5,1.7l-1,1.7h4.7h5.4l1.5,5.1l1.3,3.4l2.5,3.4l2,3.4l-0.5,3.4l-0.7,5.1l1,3.4
 		l2.4,3.4l3.9,8.4l1.3,8.4l1.2,1.7l2.7,1.7l5.1,8.4l3.5,5.1h1.9l1.2,1.7l1.3-1.7h1l5.2-3.4l5.6-1.7l1.2-1.7h1.7v-1.7l-1.2-1.7
 		l-1.2-1.7h-1.3h-1.3l-0.7-1.7h-0.7l1.5-5.1l5.7-1.7l-1.2-1.7l-1.7-1.7l0.5-1.7l0.7-1.7l-1.7-1.7l-0.3-1.7h6.2l6.1-1.7l0.7-6.7
 		l0.8-8.4l3.7-1.7h2.9l-3.5-3.4h-4.4l-1.7-3.4l-0.5-5.1l1.5-3.4l2.2-1.7l-1.3-1.7l-2-1.7L209.7,630L209.7,630z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[08]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Ингушетия</title>
-		<link>http://localhost/region/ingushetia/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[08]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Ингушетия</title>
+            <link>http://localhost/region/ingushetia/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[ingushetia]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[ingushetia]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-IN" class="st0" d="M144,704.2l-1.3-1.7h-2.2l-0.5-1.7h-0.8l-2.7,3.4l-1.9,3.4l1.7,1.7l-1.3,5.1l-2.5,1.7l5.4,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-IN" class="st0" d="M144,704.2l-1.3-1.7h-2.2l-0.5-1.7h-0.8l-2.7,3.4l-1.9,3.4l1.7,1.7l-1.3,5.1l-2.5,1.7l5.4,1.7
 		l5.4-1.7l0,0l0.7-1.7h0.3l3.5-6.7L144,704.2L144,704.2z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[06]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Алтай</title>
-		<link>http://localhost/region/altai/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[06]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Алтай</title>
+            <link>http://localhost/region/altai/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[altai]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[altai]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-AL" class="st0" d="M783.6,800.3h-1.7l-1.7-1.7l-1.7-1.7l-1.7,1.7h-1.7l-1.7-1.7l-3.4-3.4l-5.1,1.7l-1.7,3.4l1.7,3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-AL" class="st0" d="M783.6,800.3h-1.7l-1.7-1.7l-1.7-1.7l-1.7,1.7h-1.7l-1.7-1.7l-3.4-3.4l-5.1,1.7l-1.7,3.4l1.7,3.4
 		l-3.4,3.4l-1.7-1.7l0,0h-3.4H755l-1.7-1.7l-1.7-1.7l-1.7,3.4l-1.7,3.4h-1.7h-1.7l-1.7,1.7l-1.7,1.7h-5.1h-6.7l-3.4,1.7l-1.7,1.7
 		l0,0l-3.4-1.7l-3.4,1.7l3.4,3.4l3.4,3.4v1.7v3.4v1.7h-5.1l3.4,8.4l5.1,6.7l1.7,5.1l1.7,5.1l1.7,1.7h1.7l3.4,1.7l1.7,1.7l6.7-1.7
 		l5.1-1.7v1.7l-1.7,1.7l8.4,11.8h3.4h3.4l3.4-1.7l1.7-3.4l8.4,1.7l0,0h1.7h1.7h1.7l1.7-1.7h1.7l1.7,1.7l3.4-5.1l1.7-3.4l-1.7-3.4
 		v-1.7h-3.4v-1.7l5.1-3.4h3.4v-3.4l-3.4-1.7V839v-3.4h-1.7l-1.7-1.7v-5.1l-1.7-6.7l-1.7,1.7l-3.4,1.7l-5.1-1.7l-3.4-5.1l1.7-1.7
 		l1.7-1.7v-1.7v-3.4l3.4-1.7l3.4-3.4V802v-1.7L783.6,800.3L783.6,800.3z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[04]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[04]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Башкортостан</title>
-		<link>http://localhost/region/bashkortostan/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[04]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[04]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Башкортостан</title>
+            <link>http://localhost/region/bashkortostan/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[bashkortostan]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[bashkortostan]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-BA" class="st0" d="M433,571l-1.7-1.7v-1.7h-5.1l-5.1-1.7l-5.1,1.7l-5.1,1.7h-3.4h-3.4l-6.7,3.4l-6.7,1.7l-1.7-1.7v1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-BA" class="st0" d="M433,571l-1.7-1.7v-1.7h-5.1l-5.1-1.7l-5.1,1.7l-5.1,1.7h-3.4h-3.4l-6.7,3.4l-6.7,1.7l-1.7-1.7v1.7
 		l-1.7,1.7l0,0l1.7,1.7v3.4l-1.7,3.4l-1.7,1.7h-3.4v1.7l-1.7,3.4l-3.4,6.7l0,0l-1.7,5.1v5.1v5.1l1.7,1.7l1.7,1.7l0,0v1.7l1.7,1.7
 		h1.7l-1.7,5.1v3.4l1.7,3.4v1.7h-1.7H379l1.7,5.1l1.7,5.1h1.7l3.4-3.4l5.1,1.7l-3.4,5.1l-3.4,3.4l1.7,1.7l1.7,1.7l-3.4,8.4h1.7
 		l1.7,3.4l1.7,1.7h3.4h3.4l3.4,1.7l1.7,1.7l6.7,1.7l3.4-6.7h3.4l1.7-3.4v-1.7h1.7v-1.7V657l3.4-3.4l1.7-1.7l5.1-8.4l5.1-8.4h1.7h1.7
 		l3.4-1.7h1.7l3.4,1.7v1.7l1.7-3.4l5.1-5.1l3.4-5.1l-8.4-1.7l-10.1,1.7l-1.7-1.7v-1.7H433h-3.4v-1.7l-3.4-11.8v-1.7h1.7V603l1.7-1.7
 		l5.1-1.7l5.1,3.4l-1.7,3.4v3.4l3.4-1.7l1.7,1.7v1.7v1.7h1.7l1.7-1.7l1.7-3.4l3.4,1.7h1.7l1.7-1.7h1.7h1.7h3.4l-1.7-1.7l-1.7-1.7
 		l3.4-6.7v-5.1h-1.7l-5.1-3.4l-6.7-3.4l-1.7-1.7h-1.7v-3.4v-1.7h-3.4H438v-1.7l-1.7-5.1h-1.7L433,571L433,571z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[02]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[102]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Адыгея</title>
-		<link>http://localhost/region/adygeja/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[02]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[102]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Адыгея</title>
+            <link>http://localhost/region/adygeja/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[adygeja]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[adygeja]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-AD" class="st0" d="M107.2,628.3l-0.8-5.1l-4.6,1.7l-5.7-1.7l-2.7-3.4l-1.7-1.7l-1.3,1.7l0.5,1.7l0.8,1.7l3,3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-AD" class="st0" d="M107.2,628.3l-0.8-5.1l-4.6,1.7l-5.7-1.7l-2.7-3.4l-1.7-1.7l-1.3,1.7l0.5,1.7l0.8,1.7l3,3.4
 		l2.7,3.4h1l1.5-3.4h1.9l1.2,5.1l-0.5,5.1h-3.9l-3.9,5.1l0.3,1.7l0.5,1.7l-1.7,1.7h-2.2l0.3-1.7l-0.7-1.7l-1.3,1.7h-1.7l-0.7,1.7
 		l2,5.1l3.4,3.4l3.4-1.7l2.2-5.1h1.5l1.3-1.7l2.2-3.4l3.7-1.7l-0.5,3.4l-0.7,3.4h1.7h1l0.8-1.7l0.8-1.7l1-1.7l2-1.7l-1.7-8.4
 		C112,633.4,107.2,628.3,107.2,628.3z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[01]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Крым</title>
-		<link>http://localhost/region/crimea/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[01]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Крым</title>
+            <link>http://localhost/region/crimea/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[crimea]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[crimea]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-CR" class="st0" d="M32.8,565.2l4.4-6.4l-3.4-8.6l-3.3-1.9L30,546l7.7,0.4l8.1,1.6l5.4,4.6l-1-6.6l4.3,5l0.5,2.3l5,4.6
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-CR" class="st0" d="M32.8,565.2l4.4-6.4l-3.4-8.6l-3.3-1.9L30,546l7.7,0.4l8.1,1.6l5.4,4.6l-1-6.6l4.3,5l0.5,2.3l5,4.6
 		l2.4,6.2l-2,5.1l-0.9,9.6l3.2,0.9l2.3-0.3l0.7,2.9l3.1,0.7l4.1,5.5l-5,0.1l-1.8,3l-7-5.8l-1.6-4l-3.9-0.4l-8-3.1l-5.4-1.7l-7,0.2
 		L32.8,565.2z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[82]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Севастополь</title>
-		<link>http://localhost/region/sevastopol/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[82]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Севастополь</title>
+            <link>http://localhost/region/sevastopol/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[sevastopol]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[sevastopol]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-SEV" class="st0" d="M33.5,576.5l-4.3-3l-1.5-6.1l5.1-2.3L33.5,576.5z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[92]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Коми</title>
-		<link>http://localhost/region/komi/</link>
-
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
-
-		<wp:post_name><![CDATA[komi]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+            <wp:post_type><![CDATA[region]]></wp:post_type>
 
 
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value>
+                    <![CDATA[<path id="RU-SEV" class="st0" d="M33.5,576.5l-4.3-3l-1.5-6.1l5.1-2.3L33.5,576.5z"/>]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[92]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Коми</title>
+            <link>http://localhost/region/komi/</link>
+
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
+
+            <wp:post_name><![CDATA[komi]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KO" class="st0" d="M552.7,355.2l-10.1-8.4l-8.4-6.7h-3.4h-3.4l0,0l-1.7-1.7L524,340l-3.4,1.7l-13.5-1.7h-11.8l0,0
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KO" class="st0" d="M552.7,355.2l-10.1-8.4l-8.4-6.7h-3.4h-3.4l0,0l-1.7-1.7L524,340l-3.4,1.7l-13.5-1.7h-11.8l0,0
 		l-5.1,6.7l-5.1,6.7l-1.7,5.1h3.4l1.7,1.7l-1.7,5.1l-1.7,5.1l1.7,3.4v1.7l-1.7,1.7l-1.7,1.7l-1.7-1.7l-3.4-3.4h-1.7l-1.7,1.7
 		l-1.7-1.7V372h-1.7h-3.4l-1.7-1.7l-3.4,1.7l-1.7-1.7V367l-11.8-8.4l-11.8-5.1v8.4l3.4,6.7v8.4l-3.4,5.1v3.4l1.7,3.4l-5.1,1.7h-3.4
 		l-5.1,6.7l-1.7,6.7l1.7,1.7h1.7l1.7-1.7l1.7,1.7l3.4,1.7v-1.7l1.7-3.4l5.1-1.7l1.7,1.7l1.7-1.7h1.7l1.7,3.4l1.7,3.4l-6.7,6.7
@@ -977,28 +986,28 @@
 		l3.4-3.4h5.1l6.7-1.7h1.7h1.7h1.7h1.7l1.7-1.7l1.7-3.4l8.4-3.4l6.7-5.1l-1.7-5.1l-3.4-5.1l1.7-6.7h1.7l1.7-1.7l-3.4-1.7h-1.7h-1.7
 		l-1.7,1.7l-3.4,1.7l-3.4,1.7l-3.4,1.7l-3.4,1.7h-1.7l-1.7-1.7l-1.7,3.4v1.7l-11.8,3.4l-10.1,1.7l-1.7-1.7l-1.7-1.7L552.7,355.2
 		L552.7,355.2z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[11]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Кировская область</title>
-		<link>http://localhost/region/kirov-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[11]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Кировская область</title>
+            <link>http://localhost/region/kirov-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[kirov-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[kirov-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KIR" class="st0" d="M409.4,427.7l-8.4-1.7l-3.4,3.4l-6.7,5.1l-3.4-1.7l-3.4,1.7v3.4l1.7,1.7h3.4h1.7l0,0l-1.7,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KIR" class="st0" d="M409.4,427.7l-8.4-1.7l-3.4,3.4l-6.7,5.1l-3.4-1.7l-3.4,1.7v3.4l1.7,1.7h3.4h1.7l0,0l-1.7,1.7
 		l-1.7,1.7l1.7,3.4l-3.4,3.4l-1.7,3.4l-1.7,5.1v5.1l-3.4,1.7l0,0h-1.7h-1.7h-1.7h-1.7v1.7l-3.4-1.7h-1.7l-5.1,3.4l-3.4,1.7l5.1,6.7
 		l5.1,6.7l-1.7,1.7l0,0l-3.4,1.7l-3.4,1.7l-6.7-3.4l-1.7,1.7l-1.7,3.4l-1.7,1.7l-1.7,1.7l1.7,1.7l1.7,1.7l1.7,3.4h5.1h1.7l1.7,1.7
 		h1.7h1.7l1.7,1.7l3.4,1.7v1.7l0,0l1.7-1.7h3.4v1.7l-1.7,3.4l1.7,1.7l0,0h1.7v3.4v1.7v1.7l1.7,1.7l-1.7,1.7l-1.7,1.7l5.1,1.7
@@ -1006,77 +1015,77 @@
 		l6.7-3.4l3.4,3.4l3.4,1.7h1.7h1.7l1.7,1.7v1.7l1.7,1.7h3.4l1.7-1.7l3.4-1.7l1.7-5.1l1.7-1.7l-3.4-3.4v-5.1l8.4-5.1l5.1-6.7
 		l-6.7-5.1l-6.7-6.7v-1.7h-5.1l-6.7,1.7l-5.1-1.7l-6.7-3.4v1.7h-1.7h-1.7l0,0l-3.4,3.4l-5.1,3.4v-3.4l1.7-1.7l-1.7-5.1v-3.4l0,0
 		l-1.7-3.4l-3.4-3.4l3.4-5.1l6.7-1.7v-1.7v-3.4l5.1-8.4l-3.4-3.4l-1.7-5.1V427.7z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[43]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Пензенская область</title>
-		<link>http://localhost/region/penza-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[43]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Пензенская область</title>
+            <link>http://localhost/region/penza-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[penza-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[penza-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-PNZ" class="st0" d="M284.6,528.8l-3.4,3.4h-3.4l-5.1-10.1l-3.4-6.7l-1.7,1.7l-1.7,1.7l-5.1-3.4l-1.7-5.1h-3.4l0,0
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-PNZ" class="st0" d="M284.6,528.8l-3.4,3.4h-3.4l-5.1-10.1l-3.4-6.7l-1.7,1.7l-1.7,1.7l-5.1-3.4l-1.7-5.1h-3.4l0,0
 		l-1.7,1.7l-1.7,3.4l-1.7,1.7l1.7,1.7l0,0v3.4l-3.4,1.7l1.7,5.1v8.4l-1.7,1.7l-3.4,1.7l3.4,3.4l5.1,3.4l1.7,3.4l1.7,1.7h3.4l1.7,1.7
 		l1.7,1.7v1.7l5.1,3.4h3.4l1.7,1.7v3.4l5.1-1.7h3.4l3.4,1.7l1.7,1.7l5.1-3.4l5.1-6.7v-3.4l-1.7-3.4l1.7-6.7l-1.7-6.7l-6.7-3.4
 		L284.6,528.8L284.6,528.8z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[58]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Тамбовская область</title>
-		<link>http://localhost/region/tambov-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[58]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Тамбовская область</title>
+            <link>http://localhost/region/tambov-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[tambov-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[tambov-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-TAM" class="st0" d="M247.5,505.2l-1.7,1.7h-3.4l-1.7-1.7l-1.7-3.4H234l-3.4-1.7l-7.4,5.1l-5.9,6.7l1.7,10.1l-2.7,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-TAM" class="st0" d="M247.5,505.2l-1.7,1.7h-3.4l-1.7-1.7l-1.7-3.4H234l-3.4-1.7l-7.4,5.1l-5.9,6.7l1.7,10.1l-2.7,1.7
 		l-3.2,1.7l1.3,1.7l1.7,1.7l-0.8,3.4l-0.5,1.7l3,1.7l3.5,1.7l1.9,3.4l1.7,3.4h1.2h1.3l-0.3,1.7l2.2,1.7l8.1-3.4l8.4-3.4l3.4-1.7
 		l1.7-1.7v-8.4l-1.7-5.1l1.7-1.7l1.7-3.4l0,0l-1.7-1.7l1.7-1.7l1.7-3.4l1.7-1.7l0,0L247.5,505.2z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[68]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Мурманская область</title>
-		<link>http://localhost/region/murmansk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[68]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Мурманская область</title>
+            <link>http://localhost/region/murmansk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[murmansk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[murmansk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-MUR" class="st0" d="M426.2,157.9v0.8l-3.4,2.5l-5.1-2l-3.4-1.2l-1.7,1.3l-3.4,1.9l-1.7-2.7l-1.7-0.2l-3.4-0.5v1.5v1.9
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-MUR" class="st0" d="M426.2,157.9v0.8l-3.4,2.5l-5.1-2l-3.4-1.2l-1.7,1.3l-3.4,1.9l-1.7-2.7l-1.7-0.2l-3.4-0.5v1.5v1.9
 		l-6.7,3.4l-5.1,6.7v1.7v1.7l-1.7,8.4l-1.7,6.7l-5.1,1.7h-6.7l-10.1,8.4l6.7,8.4l5.1,8.4v5.1l1.7,5.1l5.1-1.7l1.7,1.7h1.7l0,0
 		l1.7,1.7v-3.4V222l1.7-3.4v-1.7v-1.7v-3.4l3.4,6.7v1.7h-1.7v3.4v5.1h1.7h1.7l1.7,8.4l0,0h-1.7v1.7l1.7,1.7h1.7v3.4v5.1l3.4,5.1
 		l5.1,6.7l5.1,8.4l3.4,6.7L433,281l10.1-1.7l8.4-3.4l1.7-1.7v-3.4l3.4-3.4l3.4-5.1l0,0l-1.7-3.4l0,0l-1.7-1.7l1.7-5.1l1.7-5.1h-1.7
@@ -1084,28 +1093,28 @@
 		l-1.7-5.1l-1.7-3.4l-3.4-1.7l-3.4,1.7l-1.7-1.7l0,0l0,0l3.4-1.7l3.4-3.4l-3.4-1.7h-1.7l0,0h1.7l1.7-1.7l-1.7-1.7l-3.4-1.7l0,0h1.7
 		l1.7-1.7l-1.7-1.7v-1.7l3.4,3.4l5.1,1.7l-1.7-5.1l-1.7-6.7v1.7h-1.7l0,0l0,0H438h-1.7v1.7l-1.7-1.7l0,0l0,0l0,0v-1.7l-1.7-3.4v-1.7
 		l-1.7,1.7v1.7h-3.4l-1.7-4.9L426.2,157.9L426.2,157.9z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[51]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Ленинградская область</title>
-		<link>http://localhost/region/leningrad-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[51]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Ленинградская область</title>
+            <link>http://localhost/region/leningrad-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[leningrad-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[leningrad-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-LEN" class="st0" d="M247.5,279.3l-3.4,1.7l1.7,1.7l1.7,1.7h3.4l1.7,1.7l0,0h-1.7l-1.7,1.7v1.7h-1.7v-1.7v8.4l1.7,3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-LEN" class="st0" d="M247.5,279.3l-3.4,1.7l1.7,1.7l1.7,1.7h3.4l1.7,1.7l0,0h-1.7l-1.7,1.7v1.7h-1.7v-1.7v8.4l1.7,3.4
 		h3.4l5.1,1.7l3.4,6.7l-3.4,5.1l-5.1,3.4l-6.7-3.4l-1.7-5.1l1.7-5.1l-3.4-3.4l-1.7,1.7l-1.7-1.7l-1.7-1.7l-1.7-1.7l-1.7,1.7h-1.7
 		v-3.4l0,0h-2l-1.2,1.7l-2.5,1.7h0.8l-2,3.4l-3-1.7l-2.9,1.7h-3l1.7,5.1l1.3,3.4l1.7,3.4l1.5,3.4l-1.2,6.7l2.5,5.1h2.5l3.4-1.7
 		l2.4,1.7l1.7,3.4l3.4-1.7h5.1v1.7l3.4,1.7l3.4-1.7l3.4-1.7v1.7l0,0l1.7,1.7l1.7,1.7v3.4v3.4h3.4h3.4l1.7,1.7v1.7l3.4,5.1v3.4
@@ -1113,28 +1122,28 @@
 		h3.4h1.7l3.4-1.7l-1.7-1.7l0,0l-1.7-6.7l-1.7-1.7h-3.4l-3.4-3.4l-3.4-3.4l0,0h-1.7v1.7l1.7,3.4h-3.4l-1.7-1.7h-3.4h-3.4h-3.4l0,0
 		h-1.7l-1.7-1.7l-3.4,3.4l-5.1,1.7l-3.4-5.1h-5.1l-3.4-1.7l-1.7-1.7h1.7l1.7-3.4l1.7-3.4l3.4-8.4l5.1-6.7v-3.4v-1.7l-3.4-5.1V281
 		h-11.8L247.5,279.3L247.5,279.3z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[47]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Вологодская область</title>
-		<link>http://localhost/region/vologda-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[47]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Вологодская область</title>
+            <link>http://localhost/region/vologda-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[vologda-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[vologda-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-VLG" class="st0" d="M338.5,373.7h-1.7l-3.4-1.7v-1.7v-1.7l-1.7-1.7h-1.7v-6.7l1.7-3.4l1.7-5.1l1.7-5.1l-5.1-5.1
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-VLG" class="st0" d="M338.5,373.7h-1.7l-3.4-1.7v-1.7v-1.7l-1.7-1.7h-1.7v-6.7l1.7-3.4l1.7-5.1l1.7-5.1l-5.1-5.1
 		l-3.4-3.4h-1.7h-1.7v1.7l-5.1,1.7l-6.7,1.7l-1.7-1.7l-1.7-3.4h-3.4l-1.7,1.7v1.7l-3.4,3.4l-5.1,1.7l-5.1,3.4v1.7v1.7v1.7l-1.7,1.7
 		v1.7h1.7l-1.7,1.7h-3.4l-1.7,1.7l-1.7,1.7l-3.4-1.7h-5.1l-1.7,5.1v3.4h1.7v1.7h1.7l1.7,1.7v5.1v5.1h5.1l6.7,1.7v1.7v1.7v1.7v5.1
 		l1.7-1.7l5.1,1.7v-5.1l1.7-5.1l1.7,1.7l-1.7,3.4v6.7l5.1,3.4l1.7-1.7h1.7l5.1,5.1v8.4l6.7,8.4l6.7-1.7v-1.7l1.7-1.7l5.1,1.7
@@ -1142,80 +1151,80 @@
 		l3.4,1.7h1.7l1.7-1.7l1.7-1.7l3.4,1.7l1.7,3.4l3.4-3.4l-1.7-3.4l1.7-1.7l1.7-1.7l0,0h-1.7h-3.4l-1.7-3.4v-1.7l3.4-1.7h3.4l6.7-3.4
 		l3.4-3.4l-1.7-6.7l-3.4-1.7v-3.4v-1.7h-6.7h-3.4l-5.1-6.7l-3.4-5.1l-3.4,1.7h-5.1v-1.7v-3.4h-3.4l-1.7-1.7l-1.7-1.7v-1.7l-1.7-1.7
 		l-1.7-1.7h-1.7l0,0v-1.7h-3.4l-5.1,1.7v-3.4l-1.7-1.7l-1.7-1.7l-1.7-1.7l-1.7-1.7h-1.7v-1.7L338.5,373.7L338.5,373.7z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[35]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Костромская область</title>
-		<link>http://localhost/region/kostroma-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[35]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Костромская область</title>
+            <link>http://localhost/region/kostroma-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[kostroma-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[kostroma-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KOS" class="st0" d="M341.9,420.9l-1.7-1.7h-1.7v-1.7v-1.7l-1.7,1.7l-1.7,1.7l-5.1-1.7l-5.1-1.7l-1.7,1.7v1.7l-6.7,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KOS" class="st0" d="M341.9,420.9l-1.7-1.7h-1.7v-1.7v-1.7l-1.7,1.7l-1.7,1.7l-5.1-1.7l-5.1-1.7l-1.7,1.7v1.7l-6.7,1.7
 		l-1.7,3.4v1.7l-11.8,5.1l-10.1,6.7l11.8,6.7l3.4-1.7l1.7-1.7l1.7,3.4l1.7,3.4l3.4,1.7l3.4,1.7l-1.7,3.4l-1.7,1.7h5.1l3.4,5.1
 		l6.7,3.4h6.7l3.4-3.4l1.7-1.7l5.1,5.1v3.4h1.7h1.7l6.7,1.7l3.4-1.7l5.1-3.4h1.7l3.4,1.7v-1.7h1.7h1.7h1.7h1.7l0,0l3.4-1.7V458
 		l1.7-5.1l1.7-3.4l-1.7-3.4l-3.4-1.7l-1.7,1.7l-1.7,1.7h-1.7l-3.4-1.7l-1.7,1.7h-1.7l-11.8-8.4l-1.7-3.4l-1.7-3.4l-3.4-1.7l-1.7-1.7
 		l0,0v-1.7l-6.7-1.7v-3.4L341.9,420.9L341.9,420.9z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[44]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Псковская область</title>
-		<link>http://localhost/region/pskov-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[44]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Псковская область</title>
+            <link>http://localhost/region/pskov-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[pskov-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[pskov-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-PSK" class="st0" d="M219.5,309.7l-1.3-3.4l-1.7-5.1l-3.7,5.1l-3.9,3.4h-0.8h-4.4L201,313l1.2,1.7l0.8,1.7l-2.5,5.1
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-PSK" class="st0" d="M219.5,309.7l-1.3-3.4l-1.7-5.1l-3.7,5.1l-3.9,3.4h-0.8h-4.4L201,313l1.2,1.7l0.8,1.7l-2.5,5.1
 		l-2.4-1.7l0.7-1.7l0.5-1.7h-1l-0.3,1.7l0,0h-1.7l-1.3-1.7l-3,1.7h-3.2v1.7h0.7l-0.2,1.7l-1.7,5.1l-3.9,3.4l-4.2,1.7l0.3,1.7
 		l0.2,1.7l-4.2,5.1l-5.6,6.7H170l0.2,1.7l1.3,1.7l1.7,1.7l-0.7,1.7l-0.2,1.7h1.5l2.2,3.4l-2,5.1l-1.3,1.7h2.5l1.3,1.7h2.9l3,8.4v3.4
 		l0.8,1.7h3.5l2.4,3.4l4.4-3.4l4.2-3.4l1-5.1v-3.4l1.5-1.7l1.5-1.7l-0.8-1.7h-0.2l2.4-1.7l2.7-1.7l-0.3-3.4l3-3.4l0.8-3.4l5.1-1.7
 		l0.3-1.7l0.2-1.7h2l1.5-1.7l-1.7-5.1l-1.2-6.7l8.4-3.4l-2.5-5.1l1.2-6.7l-1.5-3.4L219.5,309.7L219.5,309.7z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[60]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Архангельская область</title>
-		<link>http://localhost/region/arkhangelsk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[60]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Архангельская область</title>
+            <link>http://localhost/region/arkhangelsk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[arkhangelsk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[arkhangelsk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-ARK" class="st0" d="M598.2,255.7v-3.4h-3.4v3.4l1.7,1.7l-1.7,6.7l5.1-5.1v-1.7L598.2,255.7z M637,218.6l-5.1-1.7h-5.1
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-ARK" class="st0" d="M598.2,255.7v-3.4h-3.4v3.4l1.7,1.7l-1.7,6.7l5.1-5.1v-1.7L598.2,255.7z M637,218.6l-5.1-1.7h-5.1
 		v1.7v1.7h-1.7l0,0v1.7v1.7l-3.4-1.7h-5.1v1.7v1.7l1.7,1.7l0,0h-1.7v1.7l0,0h1.7l0,0h-1.7l-1.7,1.7l-5.1,3.4l-3.4,3.4l0,0l-1.7-1.7
 		v-1.7l-1.7-1.7l-3.4,1.7l-3.4,3.4l-1.7,5.1v5.1h1.7h1.7l0,0v1.7l0,0l0,0l1.7-1.7l1.7-1.7v1.7l-1.7,3.4l3.4,3.4l1.7-1.7l0,0l0,0
 		l-1.7,1.7l-1.7,6.7l1.7,1.7l1.7,3.4h-1.7h-1.7l0,0l-1.7-1.7v1.7l-1.7,1.7h-1.7l0,0v3.4l1.7,3.4h3.4l0,0l1.7,3.4v3.4h1.7l0,0h1.7
@@ -1261,28 +1270,28 @@
 		l1.7,1.7l3.4-3.4l1.7,3.4l3.4-1.7h1.7v1.7l1.7,1.7l1.7-1.7h1.7l3.4,3.4l1.7,1.7l1.7-1.7l1.7-1.7v-1.7l-1.7-1.7l1.7-6.7l1.7-5.1
 		l-1.7-1.7h-3.4l1.7-5.1l5.1-6.7l5.1-6.7l-3.4-3.4l-3.4-1.7h-3.4l-3.4,1.7v1.7l0,0h-3.4v-1.7l-1.7-1.7l-1.7-3.4l-5.1-10.1l-6.7-10.1
 		V308v-1.7l-8.4,6.7l1.7-3.4l-1.7-1.7l-1.7-1.7l-1.7,1.7l1.7-1.7l3.4-1.7L449.8,291.1L449.8,291.1z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[29]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Ямало-Ненецкий АО</title>
-		<link>http://localhost/region/yamalo-nenets-ao/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[29]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Ямало-Ненецкий АО</title>
+            <link>http://localhost/region/yamalo-nenets-ao/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[yamalo-nenets-ao]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[yamalo-nenets-ao]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-YAN" class="st0" d="M753.3,274.3v-1.7h-1.7h-1.7l-8.4,3.4v5.1l0,0l6.7,1.7l5.1-1.7v-1.7v-3.4L753.3,274.3L753.3,274.3
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-YAN" class="st0" d="M753.3,274.3v-1.7h-1.7h-1.7l-8.4,3.4v5.1l0,0l6.7,1.7l5.1-1.7v-1.7v-3.4L753.3,274.3L753.3,274.3
 		z M775.2,316.4v-6.7l1.7-5.1v-3.4l-1.7-1.7l-1.7,5.1l-1.7,8.4l-5.1,5.1l-8.4,1.7l-1.7,1.7H755l-1.7,3.4l-1.7,1.7l-1.7,1.7l-1.7,1.7
 		v1.7l1.7,1.7v1.7l-1.7,3.4l1.7,6.7v6.7l-5.1,5.1l-3.4,3.4l-1.7,5.1l-1.7,3.4l-1.7,3.4v3.4v3.4l-1.7,3.4l-1.7,5.1h3.4h1.7l1.7,1.7
 		l1.7,1.7l3.4-1.7h3.4l10.1,6.7l5.1,10.1v1.7l-1.7,1.7l1.7,5.1v5.1h-1.7H760l-5.1,3.4l-1.7,5.1l6.7,6.7l5.1,3.4h-3.4l-3.4-1.7
@@ -1308,28 +1317,28 @@
 		l-1.7,6.7l1.7,6.7l3.4,5.1h3.4l3.4,3.4l-1.7,8.4l-1.7-3.4l-1.7-3.4l-10.1-5.1l-8.4-6.7l1.7-1.7l3.4-6.7l-1.7-3.4l5.1-5.1
 		L775.2,316.4L775.2,316.4z M793.7,319.8l1.7-1.7v-3.4l-1.7-1.7l-8.4,3.4l6.7,3.4L793.7,319.8L793.7,319.8z M776.9,294.5l-6.7-1.7
 		l1.7,5.1h1.7l0,0l1.7-3.4H776.9z M785.3,286.1l1.7,1.7l1.7-1.7l-3.4-1.7l-1.7,1.7H785.3z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[89]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Чукотский АО</title>
-		<link>http://localhost/region/chukotka/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[89]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Чукотский АО</title>
+            <link>http://localhost/region/chukotka/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[chukotka]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[chukotka]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-CHU" class="st0" d="M1511.9,222h-1.7l-1.7,5.1l6.7,3.4l3.4-1.7l3.4-3.4l-1.7-1.7l-1.7-3.4l0,0h-3.4L1511.9,222z
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-CHU" class="st0" d="M1511.9,222h-1.7l-1.7,5.1l6.7,3.4l3.4-1.7l3.4-3.4l-1.7-1.7l-1.7-3.4l0,0h-3.4L1511.9,222z
 		 M1559.2,114.9l-5.1,3.4v1.3v1l-1.7,1l-1.7,1.3l-1.7,7.2l1.7,7.4l1.7,3.9l3.4,2l1.7,0.8l0,0l3.4-9.3l5.1-2.7l1.7-1.7v-2l3.4-7.2
 		l-1.7-7.2l-3.4,0.5L1559.2,114.9z M1673.8,150l-1.7,2.7l-1.7,1.9l-1.7,1.7l1.7,0.3l1.7-1.2l3.4,0.8l3.4,1.3v0.3v1.7v1.7h3.4
 		l3.4,1.7h-1.7h-1.7v1.7v1.7h-1.7l-1.7-1.7l-1.7,1.7h-1.7h-3.4V163l-3.4-1.7l-6.7-4.9l-1.7-0.3h-1.7v-0.2v1.5v2.2l-1.7-0.5v-0.7
@@ -1353,81 +1362,81 @@
 		v-6.7l-1.7-1.7l-1.7-1.7l-3.4-1.7h-1.7h-1.7h-3.4h-1.7l3.4-1.7l3.4-1.7l3.4-2.9l1.7-3.7v-1.2l-3.4,0.5l-3.4-1.2l3.4-1.2l5.1-3
 		l-3.4-2.2l-1.7-1.7v-5.6v-4l-1.7,0.5l-1.7,1.3l-1.7,0.3l-1.7,0.2l-5.1,1.3l-3.4,1.2l-8.4,0.2h-5.1l-3.4,4.2l-1.7,4.2l-1.7,1.3v-0.2
 		v0.5l1.7,1.3v1.3l-3.4-1l-1.7-1.7C1675.5,148.7,1673.8,150,1673.8,150z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[87]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Еврейская АО</title>
-		<link>http://localhost/region/jewish-ar/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[87]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Еврейская АО</title>
+            <link>http://localhost/region/jewish-ar/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[jewish-ar]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[jewish-ar]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-YEV" class="st0" d="M1414.2,835.7L1414.2,835.7h-1.7h-3.4l-1.7-1.7h-3.4l-5.1-5.1l-1.7-1.7l0,0h-3.4l-3.4,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-YEV" class="st0" d="M1414.2,835.7L1414.2,835.7h-1.7h-3.4l-1.7-1.7h-3.4l-5.1-5.1l-1.7-1.7l0,0h-3.4l-3.4,1.7
 		l-3.4-1.7h-3.4l-1.7,3.4l-1.7,1.7l0,0h-1.7l0,0l-5.1,3.4h-1.7l-1.7,1.7l-1.7,5.1l-1.7,3.4v3.4v3.4l1.7,1.7l3.4,3.4v1.7v1.7l1.7,3.4
 		l1.7,1.7l1.7,1.7l0,0l3.4,1.7l3.4-1.7h1.7l0,0l10.1-5.1h1.7h1.7l1.7-3.4v-3.4l3.4-1.7l3.4-3.4h1.7h1.7l3.4-6.7l5.1-3.4h3.4h3.4
 		l5.1-3.4l-1.7-3.4l0,0l-1.7-3.4l-3.4,1.7h-1.7h-3.4h-1.7L1414.2,835.7L1414.2,835.7L1414.2,835.7z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[79]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Тыва</title>
-		<link>http://localhost/region/tuva/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[79]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Тыва</title>
+            <link>http://localhost/region/tuva/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[tuva]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[tuva]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-TY" class="st0" d="M901.6,788.5h-3.4l-8.4,3.4l-5.1-1.7l-1.7,1.7h-1.7h-1.7v-1.7H878l-1.7,1.7H873h-1.7l-1.7,3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-TY" class="st0" d="M901.6,788.5h-3.4l-8.4,3.4l-5.1-1.7l-1.7,1.7h-1.7h-1.7v-1.7H878l-1.7,1.7H873h-1.7l-1.7,3.4
 		l-1.7,5.1l-3.4,1.7l-3.4,1.7l-8.4,11.8l-11.8,6.7l-11.8-1.7l-10.1-3.4l-1.7-3.4l-3.4-1.7l-5.1,1.7l-5.1,1.7v5.1v3.4h-6.7l-6.7-1.7
 		v6.7v5.1l1.7,1.7h1.7v3.4v3.4l3.4,1.7v3.4h-3.4l-5.1,3.4l1.7,1.7h1.7v1.7l1.7,3.4l6.7-1.7h6.7v-3.4l1.7-3.4l8.4,1.7l3.4-1.7
 		l3.4-1.7h3.4h3.4v-1.7l1.7-1.7h1.7v1.7h1.7v1.7h1.7l3.4-1.7v3.4l1.7,3.4h6.7l8.4,1.7l1.7,5.1l1.7,6.7l6.7,1.7l6.7,1.7h1.7l1.7-1.7
 		l8.4,3.4h1.7h1.7l5.1,1.7l1.7,1.7l1.7,1.7l11.8-6.7l1.7-5.1l1.7-5.1h-1.7l-1.7-3.4v-1.7v-1.7v-1.7l-1.7-1.7l3.4-8.4l5.1-6.7h1.7
 		l1.7-1.7l3.4-3.4l1.7-3.4v-1.7v-1.7l-1.7-1.7v-1.7v-1.7l1.7-1.7v-5.1V807h1.7l0,0v-3.4l-1.7-1.7h-3.4h-3.4l-8.4-6.7l-8.4-8.4
 		L901.6,788.5z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[17]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Сахалинская область</title>
-		<link>http://localhost/region/sakhalin-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[17]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Сахалинская область</title>
+            <link>http://localhost/region/sakhalin-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[sakhalin-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[sakhalin-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-SAK" class="st0" d="M1619.8,847.5L1619.8,847.5l-3.4,1.7h-1.7h-1.7v1.7v1.7l-1.7,6.7l-1.7,6.7l1.7,1.7h1.7V861
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-SAK" class="st0" d="M1619.8,847.5L1619.8,847.5l-3.4,1.7h-1.7h-1.7v1.7v1.7l-1.7,6.7l-1.7,6.7l1.7,1.7h1.7V861
 		l1.7-6.7l3.4-3.4l1.7-1.7V847.5z M1630,859.3v-3.4l-1.7,1.7l-1.7,1.7H1630z M1641.8,813.8l-1.7-3.4h-1.7l-1.7,5.1l-1.7,3.4h-3.4
 		h-3.4v1.7l1.7,1.7l-1.7,3.4l-1.7,3.4v3.4l-1.7,3.4v1.7v1.7l-1.7,3.4l1.7,1.7l1.7-8.4l1.7-1.7l1.7-1.7v-1.7v-1.7l3.4-3.4l1.7-5.1
 		l3.4-3.4L1641.8,813.8L1641.8,813.8z M1653.6,785.1L1653.6,785.1l-1.7,1.7l-3.4,8.4v1.7l-1.7,1.7l3.4,1.7l3.4-11.8V785.1z
@@ -1441,28 +1450,28 @@
 		l1.7,1.7l0,0l5.1-1.7l3.4,1.7l3.4,1.7l1.7,3.4l1.7,1.7l-3.4-8.4l-3.4-6.7l-1.7,1.7l-3.4-1.7l-3.4-1.7l-3.4-3.4l-6.7-5.1l-5.1-8.4
 		l-1.7-10.1v-8.4l-1.7-3.4v-3.4l1.7-1.7l1.7-3.4l8.4-1.7l8.4,3.4l3.4,1.7l1.7,1.7l-3.4-3.4l-5.1-3.4l-3.4-3.4l-1.7-3.4L1530.5,753.1
 		L1530.5,753.1z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[65]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Амурская область</title>
-		<link>http://localhost/region/amur-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[65]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Амурская область</title>
+            <link>http://localhost/region/amur-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[amur-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[amur-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-AMU" class="st0" d="M1346.7,705.9l3.4-3.4l1.7-5.1h-1.7h-1.7l-1.7-1.7l-3.4-1.7l-1.7,1.7l-3.4,1.7h-1.7l-1.7-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-AMU" class="st0" d="M1346.7,705.9l3.4-3.4l1.7-5.1h-1.7h-1.7l-1.7-1.7l-3.4-1.7l-1.7,1.7l-3.4,1.7h-1.7l-1.7-1.7
 		l-5.1,3.4l-6.7-1.7l-3.4,3.4h-5.1l-1.7,1.7v1.7l-3.4,1.7l-3.4,3.4v1.7l-1.7,1.7l-5.1-1.7l-5.1-1.7v1.7h-3.4h-1.7h-1.7l-1.7,3.4v1.7
 		l-3.4-1.7h-1.7l-3.4,1.7l-5.1,3.4h-5.1l-1.7-1.7h-5.1l-5.1,1.7l-8.4-1.7l-3.4-3.4l-3.4-3.4l-8.4-1.7H1222l-1.7-1.7l-3.4-1.7h-3.4
 		h-3.4l-3.4-1.7l-3.4-1.7l-3.4-1.7l-6.7,1.7l-6.7,3.4v6.7l0,0h1.7l1.7,3.4v1.7l3.4,1.7l5.1,1.7l-3.4,1.7h-1.7v3.4l3.4,3.4h1.7v-1.7
@@ -1475,28 +1484,28 @@
 		l-1.7-3.4l0,0l8.4-1.7h6.7l1.7-1.7v-3.4l-1.7-3.4v-6.7l-1.7-5.1l-5.1-1.7l0,0h-1.7l-1.7,1.7l-5.1,1.7h-3.4l-1.7,3.4l-3.4,3.4
 		l-6.7,3.4l-3.4,1.7l-1.7,1.7l0,0h-1.7h-1.7h-1.7h-1.7l-3.4-5.1l-3.4-3.4h-6.7l-5.1-1.7v-6.7l5.1-3.4v-5.1v-5.1l1.7-1.7l1.7-1.7
 		l3.4-3.4l3.4-3.4v-1.7V705.9L1346.7,705.9z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[28]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Бурятия</title>
-		<link>http://localhost/region/buryatia/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[28]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Бурятия</title>
+            <link>http://localhost/region/buryatia/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[buryatia]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[buryatia]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-BU" class="st0" d="M1107.3,722.7h-3.4l-3.4-3.4V716l-1.7,1.7h-5.1h-1.7h-3.4l-1.7-1.7l-1.7-1.7l-1.7,3.4l-5.1,3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-BU" class="st0" d="M1107.3,722.7h-3.4l-3.4-3.4V716l-1.7,1.7h-5.1h-1.7h-3.4l-1.7-1.7l-1.7-1.7l-1.7,3.4l-5.1,3.4
 		h-3.4h-5.1l-1.7-1.7h-1.7l0,0v-1.7h-1.7l-3.4,1.7l-1.7,3.4h-1.7l-1.7-1.7l-3.4,3.4l-5.1,3.4l1.7,8.4h3.4v1.7v1.7l3.4,1.7l1.7,3.4
 		h-1.7h-1.7v3.4l-3.4,13.5l1.7,13.5l5.1-18.5l3.4-6.7l5.1-1.7l-1.7,21.9l-3.4,23.6l-1.7,1.7l-1.7,1.7v-1.7v-3.4l-1.7-1.7l-1.7,3.4
 		l-1.7,3.4h1.7h3.4v3.4l-1.7,3.4h-1.7h-1.7l-3.4,5.1l-5.1,6.7l-20.2,8.4l-1.7,5.1l-1.7,5.1l-11.8,6.7l-6.7,1.7l-1.7,1.7l-5.1,5.1
@@ -1508,256 +1517,256 @@
 		l-3.4-6.7l3.4-1.7v-1.7l10.1-8.4l8.4-8.4l3.4-1.7l3.4-1.7h3.4l3.4-1.7v-11.8l-8.4-6.7l-5.1-3.4v-5.1v-1.7l0,0l0,0l-1.7-3.4l0,0
 		v-1.7l0,0l-1.7-3.4v-1.7l0,0v-3.4l-1.7-1.7l-1.7-1.7l0,0l0,0h-1.7l0,0l3.4-1.7l-1.7-3.4l3.4-3.4h1.7l1.7-1.7l-8.4-1.7l-8.4,10.1
 		l-8.4,3.4l-6.7-1.7L1107.3,722.7L1107.3,722.7z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[03]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[103]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Хакасия</title>
-		<link>http://localhost/region/khakassia/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[03]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[103]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Хакасия</title>
+            <link>http://localhost/region/khakassia/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[khakassia]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[khakassia]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KK" class="st0" d="M822.4,749.7l-3.4-3.4l-3.4,1.7h-5.1l-5.1-5.1l-5.1-5.1l-1.7,1.7v3.4v3.4v1.7l-1.7,5.1l-1.7,6.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KK" class="st0" d="M822.4,749.7l-3.4-3.4l-3.4,1.7h-5.1l-5.1-5.1l-5.1-5.1l-1.7,1.7v3.4v3.4v1.7l-1.7,5.1l-1.7,6.7
 		h5.1l3.4,3.4l-1.7,1.7l-1.7,1.7l1.7,3.4l-1.7,3.4h-1.7l-3.4,3.4v3.4l1.7,5.1l-1.7,3.4l1.7,3.4l1.7,5.1l-6.7,5.1l-6.7,3.4l-3.4,3.4
 		l-3.4,1.7v3.4v1.7l-1.7,1.7v1.7l1.7,5.1l5.1,1.7l3.4-1.7l3.4-1.7l6.7,1.7h6.7v-3.4v-5.1l5.1-1.7l5.1-1.7l1.7-5.1l3.4-3.4l1.7-1.7
 		h3.4l0,0l3.4-6.7v-1.7l3.4-1.7l3.4-3.4v-1.7l-1.7-1.7l-1.7-1.7v-1.7l0,0l-1.7-1.7l3.4-8.4l-3.4-10.1l-1.7-10.1L822.4,749.7
 		L822.4,749.7z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[19]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Кемеровская область</title>
-		<link>http://localhost/region/kemerovo-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[19]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Кемеровская область</title>
+            <link>http://localhost/region/kemerovo-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[kemerovo-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[kemerovo-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KEM" class="st0" d="M787,705.9h-5.1h-5.1h-1.7l-1.7,1.7l-1.7-1.7h-1.7l-3.4,3.4l-1.7,1.7h-1.7l-1.7-1.7l-3.4,1.7H755
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KEM" class="st0" d="M787,705.9h-5.1h-5.1h-1.7l-1.7,1.7l-1.7-1.7h-1.7l-3.4,3.4l-1.7,1.7h-1.7l-1.7-1.7l-3.4,1.7H755
 		l-1.7,3.4v1.7l1.7,5.1v3.4v1.7l1.7,1.7l-1.7,3.4l-1.7,3.4l1.7,3.4v3.4l-1.7,1.7l-1.7,3.4l3.4,3.4l1.7,3.4l1.7,1.7h1.7v3.4l1.7,1.7
 		l1.7,1.7l1.7,1.7v5.1l1.7,3.4l3.4,1.7l1.7,1.7l-1.7,1.7l-1.7,3.4v1.7h1.7v1.7l-1.7,1.7l1.7,3.4v5.1l3.4,3.4l1.7,1.7h1.7l1.7-1.7
 		l1.7,1.7l1.7,1.7h1.7l1.7-1.7v3.4v3.4l6.7-3.4l6.7-5.1l-1.7-5.1l-1.7-3.4l1.7-3.4l-1.7-5.1l1.7-3.4l1.7-3.4l3.4-1.7v-1.7l-1.7-3.4
 		l1.7-1.7l1.7-1.7l-3.4-3.4h-5.1l1.7-6.7l3.4-5.1l-1.7-1.7V743v-3.4l1.7-1.7l5.1-5.1l5.1-1.7v-1.7l-1.7-15.2l-1.7-1.7l-1.7-1.7
 		l1.7-3.4h1.7l-1.7-1.7v-1.7h-6.7l-5.1,3.4l-3.4-1.7l-3.4-1.7L787,705.9L787,705.9L787,705.9z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[42]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[142]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Новосибирская область</title>
-		<link>http://localhost/region/novosibirsk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[42]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[142]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Новосибирская область</title>
+            <link>http://localhost/region/novosibirsk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[novosibirsk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[novosibirsk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-NVS" class="st0" d="M669,662l-3.4-1.7l-3.4-3.4l-1.7,3.4v1.7l-1.7,3.4v1.7v1.7l-3.4,1.7l-1.7,3.4l1.7,3.4v3.4h-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-NVS" class="st0" d="M669,662l-3.4-1.7l-3.4-3.4l-1.7,3.4v1.7l-1.7,3.4v1.7v1.7l-3.4,1.7l-1.7,3.4l1.7,3.4v3.4h-1.7
 		h-5.1l-3.4,1.7l-3.4,3.4l0,0h-1.7h-1.7v3.4l1.7,1.7l-3.4,3.4l-1.7,8.4l1.7,3.4l1.7,5.1v1.7l-1.7,1.7l-1.7,3.4l-1.7,5.1h3.4h3.4
 		l1.7-1.7l1.7-1.7l1.7,1.7h1.7h1.7h1.7l-3.4,3.4l-3.4,1.7l5.1,10.1l6.7,11.8l1.7-3.4l3.4-1.7l1.7,1.7v1.7l3.4-1.7h3.4l5.1,1.7h5.1
 		l0,0l1.7-1.7l0,0l11.8-5.1l10.1-3.4v1.7l1.7,5.1l1.7,1.7v1.7v1.7h1.7l1.7,1.7l-1.7,1.7h-1.7l8.4,10.1l5.1-5.1l8.4-5.1v3.4h3.4v-3.4
 		h3.4h3.4h3.4h3.4l1.7-1.7l5.1-3.4l1.7-3.4l1.7-1.7v-3.4l-1.7-3.4l1.7-3.4l1.7-3.4l-1.7-1.7v-1.7V721l-1.7-5.1v-1.7l1.7-3.4h-3.4
 		h-3.4h-1.7l-1.7-1.7l-1.7,5.1l-3.4,1.7h-1.7v-1.7l0,0l-1.7-1.7l1.7-1.7l1.7-1.7v-6.7v-1.7v-3.4h-1.7h-3.4l-1.7,1.7v1.7l-1.7-1.7
 		h-1.7h-8.4l-1.5-6.7l-12-1.7l-8.3-13.4l-11.8-6.7l1.6-1.7L669,662z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[54]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[154]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Алтайский край</title>
-		<link>http://localhost/region/altai-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[54]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[154]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Алтайский край</title>
+            <link>http://localhost/region/altai-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[altai-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[altai-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-ALT" class="st0" d="M738.1,751.4h-1.7h-5.1v3.4h-1.7l-1.7-3.4l-8.4,5.1l-5.1,5.1l-6.7-10.1l0,0l1.7-1.7l-1.7-1.7h-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-ALT" class="st0" d="M738.1,751.4h-1.7h-5.1v3.4h-1.7l-1.7-3.4l-8.4,5.1l-5.1,5.1l-6.7-10.1l0,0l1.7-1.7l-1.7-1.7h-1.7
 		v-1.7v-1.7l-1.7-1.7l-1.7-5.1v-1.7l-10.1,3.4l-11.8,5.1l0,0l-1.7,1.7l0,0H674l-5.1-1.7h-3.4l-1.7,1.7l-1.7-3.4h-1.7l-1.7,1.7
 		l-3.4,3.4l11.8,60.7l6.7-1.7v-1.7v-1.7h1.7h1.7V802l1.7-1.7l3.4,8.4l3.4,6.7l6.7,1.7l3.4,1.7h5.1h1.7v-1.7h1.7h1.7h1.7l1.7-1.7
 		l6.7,5.1l3.4,6.7h5.1v-1.7v-3.4v-1.7l-3.4-3.4l-3.4-3.4l3.4-1.7l3.4,1.7v-1.7h1.7l3.4-1.7h6.7h5.1l1.7-1.7l1.7-1.7h1.7h1.7l1.7-3.4
 		l1.7-3.4l1.7,1.7l1.7,1.7h1.7h3.4l0,0l1.7,1.7l3.4-3.4l-1.7-3.4l1.7-3.4l5.1-1.7v-5.1l-1.7-3.4l1.7-1.7v-1.7l-1.7-1.7l0,0l1.7-3.4
 		l1.7-3.4h-1.7l-3.4-1.7l-1.7-3.4v-5.1l-1.7-1.7l-1.7-1.7l-1.7-1.7v-3.4h-1.7l-3.4-1.7v-3.4l-3.4-3.4l-5.1,3.4l-1.7,1.7h-3.4
 		l-3.4-1.7V751.4z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[22]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Дагестан</title>
-		<link>http://localhost/region/dagestan/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[22]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Дагестан</title>
+            <link>http://localhost/region/dagestan/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[dagestan]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[dagestan]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-DA" class="st0" d="M183.9,704.2l-3.5-5.1l-5.1-8.4l-2.7-1.7l-1.2-1.7l-3,1.7l-4.7,3.4l-2.4-1.7l-2.5,1.7h1l-0.3,3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-DA" class="st0" d="M183.9,704.2l-3.5-5.1l-5.1-8.4l-2.7-1.7l-1.2-1.7l-3,1.7l-4.7,3.4l-2.4-1.7l-2.5,1.7h1l-0.3,3.4
 		h-3.2h-2.5l2.5,1.7l-0.8,5.1h0.8l0.3,1.7l0.2,1.7l2.4,1.7h2.2l-0.5,1.7l-0.2,1.7h2.9h2.9l0.8,3.4l-0.5,3.4l-3.7,1.7l-4.2,1.7
 		l-2.9,5.1l-1.7,3.4h-2.7H149h-0.8l-0.7,1.7l-1.9-1.7H142l-3.5,1.7l-2,1.7l-2.5,3.4l3.4,8.4l4.4,6.7l1.2,11.8l3.7,10.1h4l4.4-1.7
 		h5.7l4.9-3.4v-15.2l1.7-15.2l9.6-8.4l4.2-1.7l-0.7-1.7h-1.9H178l0.7-5.1l0.7-5.1l-2.5-8.4L183.9,704.2L183.9,704.2z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[05]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Ставропольский край</title>
-		<link>http://localhost/region/stavropol-krai/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[05]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Ставропольский край</title>
+            <link>http://localhost/region/stavropol-krai/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[stavropol-krai]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[stavropol-krai]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-STA" class="st0" d="M151.2,641.8l-4.7-1.7l1-1.7l-0.5-1.7h-2.2l-2,1.7l-0.3-1.7l0.2-1.7H141l-1.2-1.7l-2.9-3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-STA" class="st0" d="M151.2,641.8l-4.7-1.7l1-1.7l-0.5-1.7h-2.2l-2,1.7l-0.3-1.7l0.2-1.7H141l-1.2-1.7l-2.9-3.4
 		l-3.4-1.7l-0.8,3.4l-0.8,1.7l-3-1.7l-2.5-1.7l-2.2,3.4l-1.3,5.1l1.5,5.1l-1,3.4l1.3,1.7l-2.5,3.4l-2.7,1.7l-0.7-1.7h-0.8l0.2,6.7
 		l2.7,3.4l2.2,5.1h2.4l2.2,1.7l-0.7,1.7h-0.2h-3.7l-2.9,1.7l0.7,1.7h1.9l-1.3,1.7l-2,3.4h3.9l4.4,1.7l0.8,1.7l-0.3,1.7l4.7,3.4h3.7
 		l3.2,3.4l1.9,1.7h0.8l-1.3,1.7h-1.7l4.2,3.4l0.7,5.1l3.7-1.7l2.5-1.7l0.7,1.7l1.3,1.7h1.3h1.7l0.8-5.1l-2.5-1.7h2.5h3.2l0.3-3.4h-1
 		l2.5-1.7l2.4,1.7l4.7-3.4l3-1.7l-1.3-8.4l-3.9-8.4l-2.4-3.4l-1-3.4l0.7-3.4l0.5-5.1l-2-3.4l-2.5-3.4l-1.3-3.4l-1.5-3.4L151.2,641.8
 		L151.2,641.8z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[26]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[126]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Кабардино-Балкария</title>
-		<link>http://localhost/region/kabardino-balkaria/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[26]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[126]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Кабардино-Балкария</title>
+            <link>http://localhost/region/kabardino-balkaria/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[kabardino-balkaria]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[kabardino-balkaria]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KB" class="st0" d="M128.3,682.3l-0.8-1.7l-4.4-1.7h-3.9h-2.9h-1.9l-6.6,5.1l4.6,6.7l2.4,8.4h1.5l1.5,1.7l3.9-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KB" class="st0" d="M128.3,682.3l-0.8-1.7l-4.4-1.7h-3.9h-2.9h-1.9l-6.6,5.1l4.6,6.7l2.4,8.4h1.5l1.5,1.7l3.9-1.7
 		l3.7-1.7l1.3,1.7l1,1.7l1.9-1.7h1.7l1.3,1.7h2l2.5-1.7l2-5.1h1.7l1.3-1.7h-0.8l-1.9-1.7l-3.2-3.4h-3.7l-4.7-3.4
 		C128,683.9,128.3,682.3,128.3,682.3z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Карачаево-Черкесия</title>
-		<link>http://localhost/region/karachay-cherkessia/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[07]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Карачаево-Черкесия</title>
+            <link>http://localhost/region/karachay-cherkessia/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[karachay-cherkessia]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[karachay-cherkessia]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KC" class="st0" d="M120.7,662l-2.7-3.4h-2.7l0.2,1.7l-6.1,3.4l-2.7-3.4l-2.7-5.1l-5.7,3.4l-5.6,3.4l5.9,11.8l9.3,10.1
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KC" class="st0" d="M120.7,662l-2.7-3.4h-2.7l0.2,1.7l-6.1,3.4l-2.7-3.4l-2.7-5.1l-5.7,3.4l-5.6,3.4l5.9,11.8l9.3,10.1
 		l6.6-5.1h1.9h2.9l2-3.4l1.3-1.7h-1.9l-0.7-1.7l2.9-1.7h3.7h0.2l0.7-1.7l-2.2-1.7h-2.4L120.7,662L120.7,662z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[09]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Краснодарский край</title>
-		<link>http://localhost/region/krasnodar-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[09]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Краснодарский край</title>
+            <link>http://localhost/region/krasnodar-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[krasnodar-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[krasnodar-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KDA" class="st0" d="M129.8,601.3l-7.6-3.4l-5.2-1.7l0.8-1.7l2.2-1.7l-0.7-1.7l0.3-1.7l-1.9-1.7h-2.4v1.7l-0.5,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KDA" class="st0" d="M129.8,601.3l-7.6-3.4l-5.2-1.7l0.8-1.7l2.2-1.7l-0.7-1.7l0.3-1.7l-1.9-1.7h-2.4v1.7l-0.5,1.7
 		h-0.2l-1.5-1.7l-0.8-1.7l-2.4-1.7h-2.2l-1-1.7l-1.2-1.7v10.1l0.5,8.4l-0.8-1.7h-0.8l-0.2-3.4v-1.7l-2.2,1.7l-2.4,1.7v-1.7h0.7
 		l-1.2-1.7l-3.2,1.7l-3,1.7h-1.7h-2l-2.2,1.7h-2.7l-4.6-3.4l-2.9-5.1l-0.5,3.4l0.3,1.7l-2.9-1.7h-2.4l2,3.4l1.7,6.7l-1.2,3.4
 		l0.3,3.4l1.2,1.7h1.2h0.8l0.2,5.1l-0.2,3.4l3.5,10.1l1,11.8l0.3,13.5h5.6l2.2,3.4l1.3,1.7h1.2l5.4-3.4l5.7-1.7l2.7,3.4l2.7,3.4
@@ -1767,328 +1776,328 @@
 		l-1.3,1.7h-1.5l-2.2,3.4l-3.4,3.4l-3.4-3.4l-2-5.1l0.7-1.7l1.7-1.7h1.3l0.7,1.7l-0.3,1.7h2.2l1.7-1.7l-0.5-1.7l-0.3-3.4l3.9-3.4
 		h3.9l0.5-5.1l-1.2-5.1H100l-1.5,3.4h-1l-2.7-3.4l-3-3.4l-0.8-1.7l-0.5-1.7l1.3-1.7l1.7,1.7l2.7,3.4l5.7,1.7
 		C101.8,624.9,106.4,623.3,106.4,623.3z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[23]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[93]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[123]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Ростовская область</title>
-		<link>http://localhost/region/rostov-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[23]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[93]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[123]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Ростовская область</title>
+            <link>http://localhost/region/rostov-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[rostov-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[rostov-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-ROS" class="st0" d="M195.9,562.6h-1.3l-1.2,1.7l-7.2,1.7l-6.9-1.7l-3.9-3.4l-5.4,5.1l-7.1-1.7l-1.2,1.7v3.4h1.3l1,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-ROS" class="st0" d="M195.9,562.6h-1.3l-1.2,1.7l-7.2,1.7l-6.9-1.7l-3.9-3.4l-5.4,5.1l-7.1-1.7l-1.2,1.7v3.4h1.3l1,1.7
 		h-2.5h-4.7l-0.5,1.7l0.5,1.7l-1.3,3.4l-1.2,1.7l-3,3.4l-4.4,1.7l-5.4-3.4l-5.2-5.1h-1.9h-1.7h-3l-3-1.7l-4.2,3.4l-4.6,3.4l2.9,1.7
 		l1.5,1.7l4.9,1.7l3.7,1.7l-0.3,1.7h-1l-1.3,3.4l-1-1.7h-1.7l-3-1.7h-2.7l-0.3,1.7l0.7,1.7l-2.2,1.7l-0.8,1.7l5.2,1.7l7.6,3.4l2,1.7
 		l0.7,3.4l-1.5,1.7h-1.2l0.3,1.7l0.7,1.7l-0.7,1.7l-0.8,1.7l3.9,6.7h2h0.8l-0.8,1.7h-1l0.2,3.4l-0.8,1.7l3.4,1.7l2.9,3.4l6.1-1.7
 		l4.6-1.7l7.2,5.1l5.2,11.8l3,1.7l2.5-1.7l0.8,1.7h0.7l1.9-1.7l1.3-3.4h4.4h4.2l0.3-1.7h0.3l4.7-5.1l2.4-5.1h-5.1l-2.9-1.7l1-1.7
 		l-1-1.7l-1.2-1.7h-1.5h-1.2l0.8-1.7v-1.7h-1.3h-1.5l0.3-1.7l1.3-8.4l-2.5-5.1l-1.7-3.4l0.8-1.7h1.7l2-1.7l2.2-1.7l5.6,1.7l6.1-3.4
 		l-0.3-5.1l-0.8-3.4l-1-1.7h-0.7l4.7-5.1l4.6-3.4l-1.7-8.4L195.9,562.6L195.9,562.6z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[61]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[161]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Самарская область</title>
-		<link>http://localhost/region/samara-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[61]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[161]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Самарская область</title>
+            <link>http://localhost/region/samara-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[samara-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[samara-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-SAM" class="st0" d="M350.3,567.6l-3.4-5.1l-1.7,5.1l-3.4,3.4h-1.7h-1.7l-1.7,1.7l0,0l-5.1-3.4l-3.4-3.4h-3.4l-3.4-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-SAM" class="st0" d="M350.3,567.6l-3.4-5.1l-1.7,5.1l-3.4,3.4h-1.7h-1.7l-1.7,1.7l0,0l-5.1-3.4l-3.4-3.4h-3.4l-3.4-1.7
 		H320l-3.4,1.7h-3.4h-1.7l-3.4,8.4l-3.4,5.1v1.7l1.7,3.4v3.4l1.7,1.7l3.4,1.7v1.7v1.7v1.7h1.7v1.7v3.4l0,0l1.7,1.7l1.7,6.7l1.7,5.1
 		l13.5-1.7l5.1-5.1l6.7-3.4l1.7-1.7h3.4l3.4-3.4l3.4-5.1l3.4-1.7l3.4-1.7l3.4-6.7l5.1-1.7l-3.4-3.4h-1.7v-1.7v-3.4l-1.7-1.7
 		l-3.4-3.4h-3.4l-3.4,1.7l-3.4-5.1V567.6z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[163]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Татарстан</title>
-		<link>http://localhost/region/tatarstan/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[63]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[163]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Татарстан</title>
+            <link>http://localhost/region/tatarstan/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[tatarstan]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[tatarstan]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-TA" class="st0" d="M373.9,523.8L373.9,523.8l-3.4,1.7l-5.1-3.4l0,0h-1.7h-1.7h-3.4l0,0v1.7h-1.7l0,0h-3.4l-3.4,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-TA" class="st0" d="M373.9,523.8L373.9,523.8l-3.4,1.7l-5.1-3.4l0,0h-1.7h-1.7h-3.4l0,0v1.7h-1.7l0,0h-3.4l-3.4,1.7
 		l-1.7-1.7H347l-3.4,1.7h-1.7v1.7l0,0l-8.4,1.7v1.7l1.7,1.7l-1.7,5.1h-6.7l-1.7-1.7h-1.7l-1.7,1.7v3.4l6.7,1.7l1.7,3.4l3.4,3.4h3.4
 		h5.1l1.7,3.4v5.1l3.4,5.1l3.4,5.1l3.4,3.4l3.4-1.7h3.4l3.4,3.4l1.7,3.4v1.7v1.7h1.7l3.4,3.4l3.4,5.1h1.7v1.7l0,0l-1.7,1.7v3.4
 		l3.4,3.4l3.4-6.7l1.7-3.4v-1.7l0,0h1.7h-1.7h3.4l1.7-1.7l1.7-3.4v-3.4V576l0,0h-1.7h1.7l-1.7-1.7v1.7v-1.7v1.7l1.7-1.7v-1.7
 		l1.7,1.7l6.7-1.7l6.7-3.4l-1.7-3.4l-3.4-3.4h-1.7l-1.7-3.4h5.1l5.1-3.4l-3.4-1.7l-1.7,1.7v-3.4v-3.4h1.7l-3.4-1.7l-3.4,1.7l1.7,1.7
 		v1.7l-3.4,1.7l-1.7-1.7l0,0h-1.7v-1.7h-1.7h-3.4l-3.4-3.4l-1.7-1.7H379l3.4-1.7l1.7-1.7h-1.7l-3.4-1.7l-1.7-5.1h1.7v-1.7h-1.7v-3.4
 		l1.7-5.1L373.9,523.8L373.9,523.8z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[16]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[116]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Марий Эл</title>
-		<link>http://localhost/region/mari-el/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[16]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[116]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Марий Эл</title>
+            <link>http://localhost/region/mari-el/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[mari-el]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[mari-el]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-ME" class="st0" d="M368.9,506.9v-1.7l-3.4-1.7l-1.7-1.7h-1.7l-1.7,1.7l-1.7-1.7l-1.7-1.7H352l-1.7-3.4l-1.7-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-ME" class="st0" d="M368.9,506.9v-1.7l-3.4-1.7l-1.7-1.7h-1.7l-1.7,1.7l-1.7-1.7l-1.7-1.7H352l-1.7-3.4l-1.7-1.7
 		l-1.7-1.7l-5.1-3.4h-5.1h-1.7l-1.7,1.7l-1.7-1.7h-1.7l-1.7,3.4l1.7,3.4h-1.7l-1.7,3.4l1.7,1.7l-1.7,3.4h5.1l1.7,1.7l8.4,1.7
 		l1.7,5.1v1.7l1.7,1.7v3.4l1.7,5.1h1.7h1.7l3.4-1.7h3.4l0,0h1.7v-1.7l0,0h3.4h1.7h1.7l0,0l5.1,3.4l3.4-1.7l0,0l1.7-1.7l1.7-1.7
 		l-1.7-1.7V517v-1.7V512h-1.7l0,0l-1.7-1.7l1.7-3.4v-1.7h-3.4L368.9,506.9L368.9,506.9L368.9,506.9z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[12]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Чувашия</title>
-		<link>http://localhost/region/chuvashia/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[12]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Чувашия</title>
+            <link>http://localhost/region/chuvashia/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[chuvashia]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[chuvashia]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-CU" class="st0" d="M333.5,506.9l-1.7-1.7h-5.1l-1.7,1.7l-3.4,1.7l0,0v5.1l1.7,3.4h-1.7h-3.4l-3.4,1.7v1.7h-1.7v1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-CU" class="st0" d="M333.5,506.9l-1.7-1.7h-5.1l-1.7,1.7l-3.4,1.7l0,0v5.1l1.7,3.4h-1.7h-3.4l-3.4,1.7v1.7h-1.7v1.7
 		h1.7l-1.7,6.7l3.4,5.1l5.1,3.4l1.7-1.7h1.7l1.7,1.7h6.7l1.7-5.1l-1.7-1.7v-1.7l8.4-1.7l0,0v-1.7h1.7h3.4l-1.7-5.1V517l-1.7-1.7
 		v-1.7l-1.7-5.1L333.5,506.9L333.5,506.9z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[21]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[121]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Нижегородская область</title>
-		<link>http://localhost/region/nizhnynovgorod-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[21]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[121]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Нижегородская область</title>
+            <link>http://localhost/region/nizhnynovgorod-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[nizhnynovgorod-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[nizhnynovgorod-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-NIZ" class="st0" d="M341.9,461.4l-3.4,3.4h-6.7l-6.7-3.4v1.7h-1.7l-3.4,1.7l-1.7,3.4l-3.4,1.7l-3.4-1.7l-3.4-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-NIZ" class="st0" d="M341.9,461.4l-3.4,3.4h-6.7l-6.7-3.4v1.7h-1.7l-3.4,1.7l-1.7,3.4l-3.4,1.7l-3.4-1.7l-3.4-1.7
 		l-3.4,3.4l-1.7,1.7l-1.7-1.7h-1.7v3.4l-1.7,1.7v1.7h1.7h-3.4h-1.7l0,0h-5.1l-5.1,1.7l-5.1,3.4l-6.7,1.7v1.7v1.7h-1.7v1.7h1.7
 		l3.4,1.7v3.4l-1.7,1.7l3.4,3.4l1.7,1.7h3.4l3.4,1.7l3.4,11.8l3.4,6.7l3.4-1.7l3.4-1.7v1.7h1.7l3.4-1.7l5.1-1.7l1.7,1.7l-1.7,1.7
 		l1.7,1.7h1.7h1.7v-1.7l3.4-1.7h3.4h1.7l-1.7-3.4v-5.1l0,0l3.4-1.7l1.7-1.7l1.7-3.4l-1.7-1.7l1.7-3.4h1.7l-1.7-3.4l1.7-3.4h1.7
 		l1.7,1.7l1.7-1.7l1.7-1.7l5.1,1.7l5.1,3.4l1.7-1.7l1.7-1.7l1.7-3.4l1.7-1.7l6.7,3.4l3.4-1.7l3.4-1.7l0,0l1.7-1.7l-5.1-6.7l-5.1-6.7
 		l-6.7-1.7h-1.7h-1.7v-3.4l-5.1-5.1L341.9,461.4z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[52]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[152]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Владимирская область</title>
-		<link>http://localhost/region/vladimir-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[52]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[152]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Владимирская область</title>
+            <link>http://localhost/region/vladimir-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[vladimir-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[vladimir-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-VLA" class="st0" d="M282.9,451.3l-3.4-1.7h-3.4l1.7-6.7l-1.7-5.1l0,0l-6.7,1.7l-5.1-5.1v-3.4v-1.7l-5.1,8.4l-3.4,10.1
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-VLA" class="st0" d="M282.9,451.3l-3.4-1.7h-3.4l1.7-6.7l-1.7-5.1l0,0l-6.7,1.7l-5.1-5.1v-3.4v-1.7l-5.1,8.4l-3.4,10.1
 		l1.7,1.7l1.7,3.4l0,0l1.7,1.7l3.4,3.4l-3.4,10.1l5.1,6.7l6.7,8.4l6.7-1.7l3.4-3.4h6.7h5.1v-1.7h1.7h3.4h-1.7v-1.7l1.7-1.7v-3.4
 		l-3.4-1.7l-3.4-1.7v-1.7v-1.7v-1.7h-1.7l-5.1-5.1l-1.7-3.4L282.9,451.3L282.9,451.3z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[33]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Московская область</title>
-		<link>http://localhost/region/moscow-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[33]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Московская область</title>
+            <link>http://localhost/region/moscow-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[moscow-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[moscow-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-MOS" class="st0" d="M235.8,409.1l-1.7,1.7h-1.7l-3.5,1.7l-4.8,1.7l-2.8,6.8l-6.4,6.7l2.5,1.7h1.9l1.5,3.4l1.7,3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-MOS" class="st0" d="M235.8,409.1l-1.7,1.7h-1.7l-3.5,1.7l-4.8,1.7l-2.8,6.8l-6.4,6.7l2.5,1.7h1.9l1.5,3.4l1.7,3.4
 		l5.2,1.7l1.7,8.4l-1.7,1.7l-1.3,3.4l3.6,5.1h2.5v1.7v3.4v1.7l1.7,1.7h-1.7l-2.5,3.4l0.2,3.4h2.3l3.4-1.7l1.7-1.7l1.7,1.7h1.7
 		l3.4-1.7h5.1h1.7h1.7h1.7v-1.7l3.4,1.7h3.4l3.4-10.1l-3.4-3.4l-1.7-1.7l-1.7-3.4l-1.7-1.7l3.4-10.1l5.1-8.4l1.7-1.7l-1.7-3.4
 		l-1.7-3.4h-1.7h-3.4l-3.4-1.7l-1.7,1.7H251l-1.7-1.7l-5.1-1.7l-5.1-1.7l-1.7-3.4L235.8,409.1z M246,431.6l1.2,2.3
 		c0.6,0.5,0.7,0.9,2,0.7l-0.5,1.7l1.3,4.2l-0.7,2.8l-4.3,0.4l-2.8-1.9l-2.8,1.5l-1.3-2.2l-1.1,2.4l-4,0.2l-1.8-2.3l-2.5,1.8l-0.8-4
 		l2.9-0.9l0.9-3.6l3,3.4l2.2-2.1l4.7,2.1l0.6-3.4l2-1.1L246,431.6z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[50]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[90]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[150]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[190]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[750]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Калужская область</title>
-		<link>http://localhost/region/kaluga-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[50]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[90]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[150]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[190]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[750]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Калужская область</title>
+            <link>http://localhost/region/kaluga-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[kaluga-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[kaluga-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KLU" class="st0" d="M222.4,436.1l-1.7-3.4l-1.5-3.4h-1.9l-2.5-1.7l-13,3.4l-1.7-1.7l-1.5-1.7l-1.5,1.7h-2.9l-2.5-5.1
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KLU" class="st0" d="M222.4,436.1l-1.7-3.4l-1.5-3.4h-1.9l-2.5-1.7l-13,3.4l-1.7-1.7l-1.5-1.7l-1.5,1.7h-2.9l-2.5-5.1
 		l-3.5-1.7l-1.5,1.7l-1.2,1.7h-2.7l-2.9,1.7l1,8.4l1.7,6.7l-2.7,3.4l-1.7,1.7l3.9,6.7l6.7,1.7l6.7,1.7l1.2-1.7l0.8-1.7l2.9-1.7h3.4
 		l0.7-1.7h0.5l3.9,1.7l4,1.7h0.8l1.3,1.7l1.9-1.7l0.5-1.7h2.7h1.7l2.4-1.7l2-1.7l1.3-1.7l1.7-3.4l-1.7-6.7l-5.2-3.4V436.1z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[40]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Белгородская область</title>
-		<link>http://localhost/region/belgorod-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[40]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Белгородская область</title>
+            <link>http://localhost/region/belgorod-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[belgorod-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[belgorod-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-BEL" class="st0" d="M178.5,520.4l2.7-1.7l0.3-3.4l-1.5-3.4l-1.5-1.7l-10.1-5.1l-7.9-3.4l-1.9-3.4l-1.5-1.7H156h-1
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-BEL" class="st0" d="M178.5,520.4l2.7-1.7l0.3-3.4l-1.5-3.4l-1.5-1.7l-10.1-5.1l-7.9-3.4l-1.9-3.4l-1.5-1.7H156h-1
 		h-3.9l-3.2-3.4l-6.1,10.1l2.2,1.7l3.4,3.4l0.8,3.4l1.2,3.4l0.2,1.7l5.6,1.7l5.4,3.4h-0.2h-0.5l-1.2,6.7v5.1l2.2,1.7l2.2-1.7l2,6.7
 		l4,6.7l1.2-1.7l1.5-1.7l1.7-3.4l2.5-5.1h1.7l1.7-1.7l-0.3-3.4v-5.1h2.4l1.7-3.4h-2.4l-2.2-3.4L178.5,520.4z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[31]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Забайкальский край</title>
-		<link>http://localhost/region/zabaikalsky-krai/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[31]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Забайкальский край</title>
+            <link>http://localhost/region/zabaikalsky-krai/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[zabaikalsky-krai]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[zabaikalsky-krai]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-ZAB" class="st0" d="M1163,677.2l-5.1-1.7l-3.4,3.4l3.4,3.4l-1.7,1.7h-1.7v3.4v1.7h-1.7v1.7l1.7,11.8h1.7h1.7v5.1v5.1
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-ZAB" class="st0" d="M1163,677.2l-5.1-1.7l-3.4,3.4l3.4,3.4l-1.7,1.7h-1.7v3.4v1.7h-1.7v1.7l1.7,11.8h1.7h1.7v5.1v5.1
 		h-1.7l-1.7-1.7l-3.4,3.4l-1.7,1.7l-3.4-1.7h-1.7h-3.4h-1.7l-3.4,1.7v3.4l-1.7,1.7l0,0h1.7l0,0l0,0l1.7,1.7l1.7,1.7v3.4l-1.7,1.7
 		l0,0h1.7l1.7,3.4l0,0v1.7l0,0l1.7,3.4l-1.7,1.7l0,0l1.7,5.1l5.1,3.4l8.4,6.7v13.5h-3.4l-5.1,1.7h-1.7l-3.4,1.7l-8.4,8.4l-10.1,8.4
 		l-1.7,1.7l-1.7,1.7l3.4,6.7l3.4,10.1l-8.4,6.7l-10.1,1.7l-1.7,1.7l-3.4,3.4l-1.7-1.7h-1.7l-1.7,3.4l-1.7,3.4l-3.4,1.7l-5.1,1.7
@@ -2099,32 +2108,32 @@
 		l8.4-5.1l-3.4-5.1l-5.1-5.1l0,0l1.7-3.4v-1.7v-1.7v-1.7l1.7-1.7l1.7-1.7l-5.1-3.4h-1.7l-1.7-1.7l3.4-8.4l-3.4-8.4l-3.4,1.7h-1.7
 		l-1.7-5.1l-3.4-5.1l-5.1,1.7l-3.4,1.7v1.7h-1.7l-3.4-3.4v-3.4h1.7l1.7-1.7l-3.4-1.7l-3.4-1.7l-1.7-1.7v-3.4h-1.7h-1.7l1.7-6.7
 		l-5.1-6.7l-1.7-6.7h-1.7l-1.7,1.7l0,0l-3.4-6.7v-3.4v-6.7l-6.7,1.7L1163,677.2L1163,677.2z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[75]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[80]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Приморский край</title>
-		<link>http://localhost/region/primorsky-krai/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[75]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[80]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Приморский край</title>
+            <link>http://localhost/region/primorsky-krai/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[primorsky-krai]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[primorsky-krai]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-PRI" class="st0" d="M1490,835.7h-5.1l-3.4-1.7v-3.4l1.7-3.4l-1.7-3.4l-3.4-3.4l-1.7-1.7l0,0l-5.1,3.4l-5.1,5.1l0,0
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-PRI" class="st0" d="M1490,835.7h-5.1l-3.4-1.7v-3.4l1.7-3.4l-1.7-3.4l-3.4-3.4l-1.7-1.7l0,0l-5.1,3.4l-5.1,5.1l0,0
 		h-1.7h-1.7v1.7l1.7,1.7l1.7,1.7v1.7l1.7,1.7h3.4h3.4l-3.4,10.1l-6.7,3.4v3.4v3.4l-6.7,5.1l-8.4,3.4l-1.7-1.7l-1.7-1.7l-1.7,1.7
 		l-1.7,1.7v-1.7V861l-1.7-1.7l-1.7,1.7l-1.7-1.7h-1.7l-3.4,5.1l-1.7,5.1v3.4l-3.4,3.4v8.4v10.1l-1.7,3.4l1.7,3.4l-1.7,1.7l-1.7,3.4
 		l1.7,5.1l-3.4,3.4h-13.5l-5.1,1.7l-1.7,6.7l-3.4,1.7l-1.7,1.7l1.7,3.4l1.7,3.4l5.1,10.1l1.7,10.1l1.7,1.7v1.7l-1.7,11.8l-5.1,1.7
@@ -2132,32 +2141,32 @@
 		h1.7v1.7v3.4l1.7-1.7l1.7-1.7l1.7-1.7v-1.7l1.7,5.1v3.4h1.7v-1.7h1.7l1.7,1.7l1.7-1.7l0,0l3.4,1.7l1.7,1.7l0,0v-3.4l1.7,1.7l0,0
 		l3.4-1.7l3.4-3.4l10.1-10.1l6.7-11.8l1.7-1.7v-3.4h1.7v-1.7v-5.1l1.7-5.1v-3.4l3.4-3.4l1.7-8.4l3.4-10.1l3.4-10.1l3.4-8.4l1.7-8.4
 		l1.7-10.1v-3.4v-5.1l1.7-6.7V835.7z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[25]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[125]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Камчатский край</title>
-		<link>http://localhost/region/kamchatka/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[25]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[125]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Камчатский край</title>
+            <link>http://localhost/region/kamchatka/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[kamchatka]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[kamchatka]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KAM" class="st0" d="M1704.2,498l4.5-1.5l4,2.5l8.7-1l-3-3l-3.7,1.2l-5.7-2l0.7-2.5l-4.7,3.2L1704.2,498z M1726.7,489
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KAM" class="st0" d="M1704.2,498l4.5-1.5l4,2.5l8.7-1l-3-3l-3.7,1.2l-5.7-2l0.7-2.5l-4.7,3.2L1704.2,498z M1726.7,489
 		l4.4,0.1l1.5-1l4.5-0.4l-0.4-0.9l-10.4,1L1726.7,489z M1648.5,444.5h-3.4v1.7v3.4v6.7v6.7v1.7h1.7v-1.7v-3.4l1.7-3.4v-1.7V453
 		l1.7-1.7l1.7-3.4L1648.5,444.5z M1655.3,338.3l-1.7,1.7v1.7v3.4h-1.7h-1.7l-1.7,1.7l-1.7,1.7l-5.1-1.7l-6.7-1.7h-6.7l-6.7,1.7
 		l-1.7-10.1l-1.7-8.4h-5.1h-3.4l-1.7-1.7h-3.4l-5.1,1.7l-5.1,1.7v-1.7h-1.7h-3.4l-3.4,1.7l0,0l-1.7,1.7l-3.4,3.4l-3.4,1.7h-1.7
@@ -2174,28 +2183,28 @@
 		l6.7,10.1v-5.1v-6.7l1.7-8.4l5.1-10.1l6.7-3.4l8.4-3.4l6.7,3.4h5.1l-1.7-5.1l-3.4-5.1l1.7-3.4l1.7-5.1v-3.4v-3.4v-1.7l1.7-1.7
 		l-1.7-3.4h-1.7l1.7-1.7h1.7l-1.7-1.7l-1.7-1.7h1.7l1.7-5.1l-1.7-1.7h-1.7l1.7-1.7l1.7-1.7V335h-1.7v-1.7v-1.7h1.7l1.7-3.4v-3.4
 		l1.7-1.7l-1.7-1.7v-1.7h-3.4l-3.4,1.7l-3.4-3.4l-1.7-1.7l-16.9,20.2L1655.3,338.3z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[41]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Магаданская область</title>
-		<link>http://localhost/region/magadan-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[41]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Магаданская область</title>
+            <link>http://localhost/region/magadan-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[magadan-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[magadan-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-MAG" class="st0" d="M1515.3,358.6L1515.3,358.6h-1.7l-3.4,1.7h-1.7h-3.4l-1.7-6.7l0,0l-3.4-1.7h-5.1l0,0v3.4l-3.4,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-MAG" class="st0" d="M1515.3,358.6L1515.3,358.6h-1.7l-3.4,1.7h-1.7h-3.4l-1.7-6.7l0,0l-3.4-1.7h-5.1l0,0v3.4l-3.4,1.7
 		l-1.7,5.1l-1.7,3.4h-1.7l-3.4-1.7l-1.7,1.7l-1.7,1.7l-5.1,1.7l-6.7,1.7v1.7v1.7h-1.7h-1.7h-1.7v3.4l1.7,3.4l-1.7,3.4l-1.7,3.4v5.1
 		l3.4,1.7l-3.4,5.1v8.4l3.4,3.4l3.4,1.7l-1.7,3.4v1.7h1.7v1.7v1.7h-3.4l-1.7,5.1l-1.7,3.4l-1.7,1.7l-3.4,1.7v1.7l-1.7,3.4l-5.1-1.7
 		l-6.7-3.4l-1.7,3.4l-3.4,3.4h-3.4l-3.4,1.7l3.4,5.1l-1.7,5.1l-1.7,1.7l-1.7-1.7l-1.7,1.7l-1.7,1.7l-3.4,1.7h-3.4l0,0l-1.7,5.1
@@ -2209,28 +2218,28 @@
 		h-1.7l-1.7-3.4l-1.7-1.7v-1.7v-3.4h-1.7l-1.7-1.7v-1.7v-5.1l-6.7-3.4l-5.1-3.4v-3.4v-1.7l-1.7-3.4v-3.4l-5.1-5.1l-3.4-5.1v-3.4
 		v-3.4l-3.4-6.7l-3.4-1.7l-3.4,1.7l-3.4,5.1h-1.7l0,0h-1.7l0,0h-5.1l-6.7-1.7l-5.1,3.4h-5.1l-3.4-1.7h-1.7L1515.3,358.6
 		L1515.3,358.6z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[49]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Саха (Якутия)</title>
-		<link>http://localhost/region/saha-yakutia/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[49]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Саха (Якутия)</title>
+            <link>http://localhost/region/saha-yakutia/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[saha-yakutia]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[saha-yakutia]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-SA" class="st0" d="M1060.1,292.8h-1.7h-1.7v1.7v3.4h-1.7l0,0l1.7,3.4l5.1,3.4l3.4-1.7l1.7-3.4L1060.1,292.8z
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-SA" class="st0" d="M1060.1,292.8h-1.7h-1.7v1.7v3.4h-1.7l0,0l1.7,3.4l5.1,3.4l3.4-1.7l1.7-3.4L1060.1,292.8z
 		 M1235.5,270.9l-3.4-5.1l-5.1-1.7l3.4,3.4L1235.5,270.9L1235.5,270.9z M1218.6,232.1v-6.7l-1.7-1.7l-3.4,1.7l3.4,5.1v3.4
 		L1218.6,232.1z M1260.7,249l1.7,6.7l1.7,1.7h3.4v-6.7L1260.7,249z M1289.4,269.2l3.4-6.7v-1.7l-1.7-1.7l-8.4-5.1h-8.4l-3.4,5.1v6.7
 		l-1.7,3.4l-1.7,1.7l-1.7,1.7h3.4l3.4-1.7l3.4-1.7h5.1l8.4-1.7V269.2z M1277.6,205.1l1.7-1.7l-8.4-1.7l-6.7-1.7l-1.7,1.7l-3.4,1.7
@@ -2272,28 +2281,28 @@
 		l1.7-1.7l3.4-1.7l-1.7-3.4l-3.4-5.1v-1.7V276l-3.4-1.7h-1.7l-1.7-3.4l0,0l-1.7-1.7h-1.7l-1.7-1.7l-1.7-3.4l0,0l-1.7,3.4v1.7v1.7
 		h-1.7v-1.7h-1.7v5.1v3.4l-1.7-3.4l-3.4-3.4l-5.1,1.7h-6.7l-1.7-5.1l-3.4-6.7L1429.3,255.7L1429.3,255.7z M1264.1,326.5l3.4,1.7
 		l3.4-1.7v-1.7l-1.7-1.7l-3.4,1.7L1264.1,326.5z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[14]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Красноярский край</title>
-		<link>http://localhost/region/krasnoyarsk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[14]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Красноярский край</title>
+            <link>http://localhost/region/krasnoyarsk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[krasnoyarsk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[krasnoyarsk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KYA" class="st0" d="M802.2,309.7l1.7,3.4h5.1V308v-5.1L802.2,309.7L802.2,309.7z M842.6,252.3h1.7v1.7l1.7,1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KYA" class="st0" d="M802.2,309.7l1.7,3.4h5.1V308v-5.1L802.2,309.7L802.2,309.7z M842.6,252.3h1.7v1.7l1.7,1.7
 		l1.7-6.7l-1.7-1.7l0,0v1.7L842.6,252.3z M852.8,125.4v-1.5l-1.7-1.2l-5.1-2.2l3.4,2.7v0.8v1.5L852.8,125.4z M881.4,86.8l-5.1-1.3
 		L873,87l1.7,1.7h1.7l3.4,1L881.4,86.8z M1053.4,235.5l1.7,1.7v1.7l3.4,1.7l-1.7-5.1l-1.7-1.7L1053.4,235.5L1053.4,235.5z
 		 M943.8,222h3.4h1.7l3.4-5.1h-3.4l-1.7,1.7l-1.7,1.7L943.8,222L943.8,222z M942.1,137.5l1.7-4.9l-3.4-3.4l-5.1-1.7l-1.7-0.8l-3.4,2
@@ -2344,40 +2353,40 @@
 		l1.7-2V109l-1.7-1.9v-0.3l-1.7-0.8l-3.4-7.9l-1.7-6.2l-3.4-0.2V94l-8.4,4.7l-6.7,5.4v2.9l1.7,0.7v1.5l-1.7,1.7v1.9l-1.7,1.9
 		l-1.7,0.8l-1.7,0.8v1.3l1.7,1.2v0.5H937V119z M933.7,90.7l-1.7,2.2v1.5h1.7l3.4,1.5l3.4-4.2C940.4,91.7,933.7,90.7,933.7,90.7z
 		 M947.2,243.9l-3.4-1.7l0,0l1.7,3.4l3.4,1.7v-1.7v-1.7L947.2,243.9L947.2,243.9z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[24]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[84]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[88]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[124]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Оренбургская область</title>
-		<link>http://localhost/region/orenburg-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[24]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[84]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[88]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[124]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Оренбургская область</title>
+            <link>http://localhost/region/orenburg-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[orenburg-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[orenburg-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-ORE" class="st0" d="M380.7,624.9l1.7-5.1h-1.7l-1.7-1.7v-1.7l0,0l-1.7-1.7l-1.7-1.7v-5.1V603l1.7-3.4V598l-3.4-3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-ORE" class="st0" d="M380.7,624.9l1.7-5.1h-1.7l-1.7-1.7v-1.7l0,0l-1.7-1.7l-1.7-1.7v-5.1V603l1.7-3.4V598l-3.4-3.4
 		v-3.4l1.7-1.7l0,0v-1.7h-1.7l-3.4-5.1l-5.1,3.4l-3.4,5.1l-3.4,1.7l-3.4,1.7l-3.4,5.1l-3.4,3.4h-3.4l-1.7,1.7l-6.7,3.4l-5.1,5.1
 		l-13.5,1.7v1.7l3.4,5.1v3.4l0,0l5.1,3.4h8.4v3.4v5.1l5.1,1.7l3.4,3.4l1.7,3.4v3.4l1.7,6.7l1.7,6.7l-1.7,1.7v3.4l3.4-1.7l1.7-3.4
 		l1.7,1.7h1.7v1.7v3.4l3.4,3.4l1.7,3.4h3.4h1.7l1.7-1.7l1.7-1.7l6.7,1.7l6.7,3.4l1.7,3.4v1.7h3.4l3.4-1.7l1.7,1.7l1.7,1.7h1.7h1.7
@@ -2385,207 +2394,207 @@
 		l3.4-1.7l-5.1-5.1l-5.1-1.7l-1.7,1.7h-1.7v-1.7v-1.7l-1.7-1.7l-1.7,3.4h-3.4l-5.1,6.7l-6.7-1.7v-1.7l-3.4-1.7h-3.4h-3.4l-1.7-1.7
 		l-1.7-3.4h-1.7l3.4-8.4l-1.7-1.7l-1.7-1.7l3.4-3.4l3.4-5.1l-5.1-3.4l-3.4,5.1h-1.7l-1.7-6.7l-1.7-5.1l1.7,1.7h1.7V630l-1.7-1.7
 		v-5.1L380.7,624.9z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[56]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Саратовская область</title>
-		<link>http://localhost/region/saratov-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[56]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Саратовская область</title>
+            <link>http://localhost/region/saratov-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[saratov-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[saratov-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-SAR" class="st0" d="M274.5,564.2l-1.7-1.7l-3.4-1.7l-5.1-3.4v-1.7l-1.7-1.7l-1.7-1.7h-3.4l-1.7-1.7l-1.7-3.4l-5.1-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-SAR" class="st0" d="M274.5,564.2l-1.7-1.7l-3.4-1.7l-5.1-3.4v-1.7l-1.7-1.7l-1.7-1.7h-3.4l-1.7-1.7l-1.7-3.4l-5.1-1.7
 		l-3.4-5.1l-6.7,3.4l-9.8,3.4l0.3,5.1l-2.4,6.7l1,6.7l4,3.4h5.1v1.7l1.7,1.7l0,0h3.4v1.7v1.7h1.7l1.7,1.7l1.7,5.1l-3.4,5.1l-3.4,1.7
 		l0,0l1.7,1.7h1.7v1.7l1.7,1.7l0,0l1.7-1.7l0,0h1.7l1.7,1.7v3.4l3.4,1.7h3.4l1.7,5.1l3.4,6.7v1.7l5.1,8.4v10.1l8.4-3.4l1.7-5.1
 		l1.7-5.1h1.7v1.7l1.7,1.7h3.4h5.1l1.7-1.7l1.7-3.4l13.5,3.4l3.4-1.7l3.4-1.7l1.7,1.7l0,0h1.7v-1.7v-1.7l-1.7-6.7l-1.7-5.1l-1.7-1.7
 		l0,0V598v-1.7v-1.7h-1.7v-1.7v-1.7l-3.4-1.7l-1.7-1.7v-3.4l-1.7-5.1l0,0v-1.7l-1.7-1.7l-10.1-1.7l-5.1-6.7l-1.7-1.7l-3.4-1.7h-3.4
 		l-5.1,1.7v-3.4L274.5,564.2z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[64]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[164]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Волгоградская область</title>
-		<link>http://localhost/region/volgograd-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[64]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[164]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Волгоградская область</title>
+            <link>http://localhost/region/volgograd-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[volgograd-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[volgograd-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-VGG" class="st0" d="M237.4,571v-1.7h-5.1l-4-3.4l-1-6.7l-3.7-1.7l-4.4-1.7l-1.9-1.7l-1.5-3.4h-2.2l-2.5,1.7l-4-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-VGG" class="st0" d="M237.4,571v-1.7h-5.1l-4-3.4l-1-6.7l-3.7-1.7l-4.4-1.7l-1.9-1.7l-1.5-3.4h-2.2l-2.5,1.7l-4-1.7
 		h-4.2l-0.2,3.4l0.5,3.4l-3.5,3.4l-3.7,1.7l0.3,6.7l1.7,8.4l-4.6,3.4l-4.7,5.1h0.7l1,1.7l0.8,3.4l0.3,5.1l-6.1,3.4l-5.6-1.7
 		l-2.2,1.7l-2,1.7H174l-0.8,1.7l1.7,3.4l2.5,5.1l-1.3,6.7l-0.3,3.4h1.5h1.3v1.7l-0.8,1.7h1.2h1.5l1.2,1.7l1,1.7l8.3-3.4l6.2,3.4
 		l2.2-3.4l1.2-3.4l2.5,1.7v3.4h2.4h2.7l2.9-1.7h2.2l1.3,1.7h0.3l0.3-1.7l1.9,1.7h2.2h5.4l5.1,1.7l1,3.4l1.7,3.4l3.4-1.7l1.7-1.7h3.4
 		h1.7v-3.4l1.7-5.1l6.7-5.1l8.4-1.7l1.7-1.7l1.7-1.7v-1.7l-3.4-6.7l-1.7-5.1h-3.4l-3.4-1.7v-3.4l-1.7-1.7h-1.7l0,0l-1.7,1.7l0,0
 		l-1.7-1.7v-1.7h-1.7l-1.7-1.7l0,0l3.4-1.7l3.4-5.1l-1.7-5.1l-1.7-1.7h-1.7v-1.7v-1.7h-3.4l0,0L237.4,571L237.4,571z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[34]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[134]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Воронежская область</title>
-		<link>http://localhost/region/voronezh-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[34]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[134]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Воронежская область</title>
+            <link>http://localhost/region/voronezh-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[voronezh-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[voronezh-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-VOR" class="st0" d="M200,510.3v-1.7l-4-1.7l-4.7-1.7l0,0l0.3,1.7l-1,1.7v1.7H190h-2l-2.2-1.7l-1.9,3.4l-2.4,3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-VOR" class="st0" d="M200,510.3v-1.7l-4-1.7l-4.7-1.7l0,0l0.3,1.7l-1,1.7v1.7H190h-2l-2.2-1.7l-1.9,3.4l-2.4,3.4
 		l-0.3,3.4l-2.7,1.7l2.2,1.7h2.4l-1.7,3.4h-2.4v5.1l0.3,3.4l-1.7,1.7H176l-2.5,5.1l-1.7,5.1h-1.3l-1.3,1.7l1.9,10.1l3,1.7l1.3,1.7
 		l3.9,3.4l6.9,1.7l7.2-1.7l1.2-1.7h1.3l3.7-1.7l3.5-3.4l-0.5-3.4l0.2-3.4h4.2l4,1.7l2.5-1.7h2.2l1.5,3.4l1.9,1.7l4.4,1.7l3.7,1.7
 		l2.4-6.7l-0.3-5.1l-2.2-1.7l0.3-1.7h-1.3h-1.2l-1.7-3.4l-1.9-3.4l-3.5-1.7l-3-1.7l0.5-1.7l0.8-3.4l-1.7-1.7l-1.3-1.7l-4.6-5.1
 		l-4.2-3.4l0.5-1.7l-1.5-3.4h-2l-1.5-1.7H200L200,510.3z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[36]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[136]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Смоленская область</title>
-		<link>http://localhost/region/smolensk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[36]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[136]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Смоленская область</title>
+            <link>http://localhost/region/smolensk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[smolensk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[smolensk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-SMO" class="st0" d="M218.2,404.1l-6.4-1.7l-8.9-1.7l-6.6-8.4l-7.1-8.4l-2.4-3.4h-3.5l-2.2,1.7l-3.7,3.4l-5.1,5.1h-3.2
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-SMO" class="st0" d="M218.2,404.1l-6.4-1.7l-8.9-1.7l-6.6-8.4l-7.1-8.4l-2.4-3.4h-3.5l-2.2,1.7l-3.7,3.4l-5.1,5.1h-3.2
 		l-0.2,3.4l0.3,1.7h0.5l0.2,1.7h-1.5l-1.7,1.7l-1.5,3.4l-0.7,5.1l0.7,3.4l-0.2,1.7l-1.7,1.7l-2,1.7l1,1.7l1.9,1.7l0.5,5.1L163,426
 		l0.3,3.4l-0.7,1.7h0.7h1.2h1.9l1.7-1.7h5.9l5.9-1.7l2.9-1.7h2.7l1.2-1.7l1.5-1.7l3.5,1.7l2.5,5.1h2.9l1.5-1.7l1.5,1.7l1.7,1.7
 		l13-3.4l6.4-6.7l2.9-6.7l-2.2-1.7l-2.5-3.4l-0.7-1.7C218.7,407.5,218.2,404.1,218.2,404.1z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[67]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Тверская область</title>
-		<link>http://localhost/region/tver-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[67]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Тверская область</title>
+            <link>http://localhost/region/tver-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[tver-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[tver-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-TVE" class="st0" d="M252.6,370.4l-5.1-3.4l-1.7,1.7l-1.7,1.7l-5.1,1.7l-5.1,1.7h-1.7l-1.7-1.7l-1.5-1.7l-9.3-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-TVE" class="st0" d="M252.6,370.4l-5.1-3.4l-1.7,1.7l-1.7,1.7l-5.1,1.7l-5.1,1.7h-1.7l-1.7-1.7l-1.5-1.7l-9.3-1.7
 		l-9.4-3.4l-2.4-1.7l-2.2-3.4l-2.7,1.7l-2.4,1.7h0.2l0.8,1.7l-1.5,1.7l-1.5,1.7v3.4l-1,3.4l-4.4,3.4l-4.2,5.1l7.1,8.4l6.6,8.4
 		l8.9,1.7l6.4,1.7l0.5,3.4l0.7,1.7l2.5,3.4l2.4,1.7l4.6-1.7l3.5-1.7h1.7l1.7-1.7l1.7,3.4l1.7,3.4l5.1,1.7l5.1,1.7l1.7,1.7l1.7-1.7
 		l1.7-1.7l3.4,1.7l3.4,1.7h1.7l1.7,3.4v3.4l5.1-6.7l5.1-1.7l-1.7-3.4v-1.7v-5.1l1.7-3.4v-1.7l1.7-1.7l1.7-1.7h3.4V399l-1.7-1.7
 		l3.4-1.7h3.4l1.7-10.1l0,0l-6.7-1.7l-5.1-1.7h-3.4l-1.7-1.7l-1.7-1.7l-3.4-1.7h-1.7l-1.7,1.7l-3.4-1.7l-1.7-1.7h-1.7l0,0
 		L252.6,370.4L252.6,370.4z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[69]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Пермский край</title>
-		<link>http://localhost/region/perm-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[69]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Пермский край</title>
+            <link>http://localhost/region/perm-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[perm-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[perm-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-PER" class="st0" d="M475.1,476.6l-3.4-3.4l-3.4-3.4H465l-3.4-1.7l-1.7-1.7l1.7-3.4l-3.4-3.4h-1.7h-1.7l-10.1-3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-PER" class="st0" d="M475.1,476.6l-3.4-3.4l-3.4-3.4H465l-3.4-1.7l-1.7-1.7l1.7-3.4l-3.4-3.4h-1.7h-1.7l-10.1-3.4
 		l-3.4,8.4l1.7,5.1l-3.4,1.7l6.7,8.4l6.7,3.4l-5.1,6.7l-8.4,5.1v5.1l3.4,3.4l-1.7,1.7l-1.7,5.1l-3.4,1.7l-1.7,3.4l-5.1,15.2
 		l-6.7,15.2l-1.7,1.7l-1.7-1.7v1.7l-1.7,1.7h-1.7l-1.7,1.7v8.4l1.7-1.7h1.7l1.7,5.1l1.7,3.4l5.1,1.7h5.1v1.7l1.7,1.7l1.7,1.7h1.7
 		l1.7,5.1v1.7h3.4h3.4l3.4-3.4l1.7-5.1l0,0v-1.7h3.4l8.4-1.7l3.4-5.1l3.4-3.4l3.4,3.4h5.1v-3.4l1.7-5.1l8.4-1.7l5.1-5.1l0,0v-1.7
 		v-5.1l3.4-5.1l-3.4-8.4l5.1-5.1l3.4-1.7l3.4-1.7l8.4-8.4l8.4-8.4v-1.7v-1.7l3.4-6.7l5.1-5.1l-16.9-3.4l-10.1-8.4H497l-3.4,1.7l0,0
 		H492l-1.7-1.7l-1.7,1.7h-3.4v-1.7h-1.7h-5.1L475.1,476.6L475.1,476.6z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[59]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[81]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[159]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Ханты-Мансийский АО</title>
-		<link>http://localhost/region/khanty-mansiysk/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[59]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[81]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[159]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Ханты-Мансийский АО</title>
+            <link>http://localhost/region/khanty-mansiysk/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[khanty-mansiysk]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[khanty-mansiysk]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-KHM" class="st0" d="M680.8,517l-3.4-3.4H669l-8.4-1.7v-5.1v-6.7l-3.4-1.7l-1.7-5.1v-5.1l1.7-1.7l1.7-3.4l-3.4-3.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-KHM" class="st0" d="M680.8,517l-3.4-3.4H669l-8.4-1.7v-5.1v-6.7l-3.4-1.7l-1.7-5.1v-5.1l1.7-1.7l1.7-3.4l-3.4-3.4
 		h-1.7l-1.7-1.7v-1.7h-3.4l-1.7,1.7h-1.7h-5.1H637l-3.4,1.7l0,0l-5.1-5.1l-3.4-5.1l3.4-1.7l1.7-1.7l-3.4-1.7l-1.7-1.7l-5.1-3.4
 		L615,458h-1.7l-1.7,1.7L610,458v-1.7h-3.4l-3.4,1.7l-1.7-1.7h-1.7h-1.7h-1.7l-1.7-3.4l1.7-3.4l-5.1-1.7l-1.7-3.4l1.7-3.4h3.4
 		l1.7-5.1l3.4-5.1v-1.7l-1.7-1.7v-5.1l-1.7-5.1l-3.4,1.7l-5.1,1.7v1.7v1.7h-3.4l-3.4,1.7l-3.4,1.7l-1.7-3.4v-1.7l0,0h-3.4l-3.4,1.7
@@ -2598,32 +2607,32 @@
 		h1.7l5.1-3.4l3.4-1.7l5.1,3.4l3.4,1.7l15.2-3.4l10.1-6.7l-1.7-3.4l-6.7-3.4L787,576l-3.4-6.7l-3.4-3.4h-3.4h-3.4l-3.4-5.1l-3.4-5.1
 		h-3.4H760l-5.1-5.1v-1.7l-1.7-3.4l0,0l-8.4,3.4l-8.4,3.4l-3.4-1.7l-3.4-1.7h-6.7h-5.1l-3.4-3.4l-1.7-6.7l-8.4-5.1l-6.7-5.1
 		l-8.4-1.7l-3.4-1.7l-3.4-3.4l-3.4-5.1H680.8z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[86]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[186]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Томская область</title>
-		<link>http://localhost/region/tomsk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[86]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[186]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Томская область</title>
+            <link>http://localhost/region/tomsk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[tomsk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[tomsk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-TOM" class="st0" d="M749.9,604.7l-3.4-1.7h-3.4h-1.7l-1.7-3.4l-1.7-3.4l-6.7,1.7h-6.7l-3.4-3.4v-3.4h-1.7h-1.7
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-TOM" class="st0" d="M749.9,604.7l-3.4-1.7h-3.4h-1.7l-1.7-3.4l-1.7-3.4l-6.7,1.7h-6.7l-3.4-3.4v-3.4h-1.7h-1.7
 		l-3.4,1.7l-1.7-1.7l-1.7-1.7l-6.7-1.7l-6.7-1.7l-1.7-1.7l0,0v1.7v3.4l-1.7,3.4h-1.7l-1.7,1.7l-1.7,6.7l-5.1,8.4h-3.4H674l-6.7,6.7
 		l-6.7,6.7v1.7v3.4h-1.7v3.4v1.7h-1.7v1.7l1.7,1.7v3.4v1.7v1.7l1.7,3.4v1.7v1.7l-1.7,1.7l1.7,3.4l1.7,1.7l3.4,3.4l3.4,1.7l20.2,6.7
 		l-1.7,1.7l11.8,6.7l8.4,13.5l11.8,1.7l1.7,6.7h10.1l0,0l1.7,1.7v-1.7l1.7-1.7h3.4h1.7l1.7,3.4l-1.7,1.7v6.7l-1.7,1.7l-1.7,1.7h1.7
@@ -2631,28 +2640,28 @@
 		l0,0l1.7-1.7l3.4,1.7l3.4,1.7l5.1-3.4h6.7l1.7-5.1l3.4-6.7h1.7h1.7l1.7-1.7v-3.4h1.7v-1.7l-3.4-8.4l-6.7-6.7v-5.1l1.7-5.1l5.1-3.4
 		l3.4-1.7l-3.4-5.1l-5.1-1.7l-1.7-3.4v-5.1l-3.4-3.4h-1.7l-1.7-1.7v-1.7l-3.4-1.7l-6.7-1.7l-5.1-1.7l-6.7,1.7l-6.7-3.4v-8.4v-13.5
 		l-5.1-1.7l-5.1-3.4l-3.4,1.7l-5.1,3.4h-1.7l-1.7,1.7l-3.4-1.7L749.9,604.7z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[70]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Иркутская область</title>
-		<link>http://localhost/region/irkutsk-region/</link>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[70]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Иркутская область</title>
+            <link>http://localhost/region/irkutsk-region/</link>
 
-		<dc:creator><![CDATA[region-admin]]></dc:creator>
+            <dc:creator><![CDATA[region-admin]]></dc:creator>
 
-		<wp:post_name><![CDATA[irkutsk-region]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-
-
-		<wp:post_type><![CDATA[region]]></wp:post_type>
+            <wp:post_name><![CDATA[irkutsk-region]]></wp:post_name>
+            <wp:status><![CDATA[publish]]></wp:status>
 
 
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<path id="RU-IRK" class="st0" d="M1044.9,555.8h-5.1v6.7h-1.7l-3.4,1.7l-1.7,1.7l-1.7,1.7l0,0l-1.7-1.7h-1.7h-3.4v1.7l0,0l-3.4,8.4
+            <wp:post_type><![CDATA[region]]></wp:post_type>
+
+
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_code]]></wp:meta_key>
+                <wp:meta_value><![CDATA[<path id="RU-IRK" class="st0" d="M1044.9,555.8h-5.1v6.7h-1.7l-3.4,1.7l-1.7,1.7l-1.7,1.7l0,0l-1.7-1.7h-1.7h-3.4v1.7l0,0l-3.4,8.4
 		l-1.7,8.4l1.7,3.4l1.7,5.1l-1.7,1.7l-1.7,3.4l1.7,1.7v3.4l-6.7,8.4l-8.4,8.4h-3.4l-1.7,1.7v1.7l0,0l-1.7,8.4l3.4,13.5l5.1,1.7
 		l3.4,3.4v1.7v1.7v1.7v1.7h-1.7h-1.7h-1.7v1.7l-1.7,1.7l-1.7,1.7l3.4,3.4l3.4,5.1l-1.7,5.1l-3.4,3.4v1.7l-3.4,5.1h-1.7l-1.7-1.7
 		l-1.7-1.7h-3.4v-1.7v-1.7H991l-3.4-1.7v-3.4v-1.7l-1.7-1.7l-5.1,1.7l-3.4,1.7l-1.7,3.4v1.7l-13.5,8.4l-6.7,13.5l0,0l1.7,1.7
@@ -2669,23 +2678,23 @@
 		l-8.4,8.4l1.7-5.1l-3.4-1.7l-1.7-3.4v-1.7l-3.4,3.4l-3.4,1.7h-1.7h-1.7h-1.7l0,0h-1.7h-1.7v1.7h-1.7l-5.1-1.7l-1.7,3.4l-8.4,1.7
 		h-1.7h-1.7l-1.7-6.7v-8.4l1.7-1.7l1.7-1.7v-3.4v-1.7l3.4-10.1l3.4-8.4l-5.1-5.1l-1.7-8.4l3.4-3.4l1.7-3.4l-3.4-5.1l-3.4-3.4v-8.4
 		l-1.7-11.8l-5.1-5.1l-6.7-1.7l5.1-5.1l1.7-1.7l-1.7-5.1L1044.9,555.8L1044.9,555.8z"/>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[38]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[85]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
-		<wp:meta_value><![CDATA[138]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-				</channel>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[38]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[85]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_region_number]]></wp:meta_key>
+                <wp:meta_value><![CDATA[138]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+    </channel>
 </rss>
