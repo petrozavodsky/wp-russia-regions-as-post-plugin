@@ -92,6 +92,8 @@ function wp_russia_regions_as_post_svg_kses( $string ) {
         $string,
         array(
             'path' => array(
+                'id'    => true,
+                'class' => true,
                 'd'     => true,
             )
         )
