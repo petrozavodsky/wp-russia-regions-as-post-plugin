@@ -1,6 +1,11 @@
 <?php
 /*
 Plugin Name: wp russia regions as post
+Description: Show a map of Russian regions
+Version: 1.0.0
+Author: petrozavodsky, anatolykulikov, soulseekah
+Text Domain: wp_russia_regions_as_post
+License: GPL-2.0+
 */
 
 if (!defined('WP_RUSSIA_REGIONS_AS_POST_POST_TYPE')) {
@@ -61,9 +66,10 @@ function wp_russia_regions_as_post_register()
     register_post_type(WP_RUSSIA_REGIONS_AS_POST_POST_TYPE, $args);
 }
 
-add_shortcode( 'wp_russia_regions_map', 'wp_russia_regions_as_post_add_map' );
+add_shortcode('wp_russia_regions_map', 'wp_russia_regions_as_post_add_map');
 
-function wp_russia_regions_as_post_add_map() {
+function wp_russia_regions_as_post_add_map()
+{
     ob_start();
     ?>
     <?php echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
@@ -72,11 +78,11 @@ function wp_russia_regions_as_post_add_map() {
          y="0px" viewBox="0 0 1200 682.9" style="enable-background:new 0 0 1200 682.9;" xml:space="preserve">
         <g transform="scale(0.68) translate(0, 0)">
             <?php
-            $args = array( 'post_type' => WP_RUSSIA_REGIONS_AS_POST_POST_TYPE, 'posts_per_page' => - 1 );
-            foreach ( get_posts( $args ) as $post ): ?>
-                <a href="<?php echo esc_url( get_permalink( $post->ID ) ); ?>">
+            $args = array('post_type' => WP_RUSSIA_REGIONS_AS_POST_POST_TYPE, 'posts_per_page' => -1);
+            foreach (get_posts($args) as $post): ?>
+                <a href="<?php echo esc_url(get_permalink($post->ID)); ?>">
                     <?php echo wp_russia_regions_as_post_svg_kses(
-                        get_post_meta( $post->ID, WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY, true )
+                        get_post_meta($post->ID, WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY, true)
                     ); ?>
                 </a>
             <?php endforeach; ?>
@@ -87,14 +93,15 @@ function wp_russia_regions_as_post_add_map() {
     return ob_get_clean();
 }
 
-function wp_russia_regions_as_post_svg_kses( $string ) {
+function wp_russia_regions_as_post_svg_kses($string)
+{
     return wp_kses(
         $string,
         array(
             'path' => array(
-                'id'    => true,
+                'id' => true,
                 'class' => true,
-                'd'     => true,
+                'd' => true,
             )
         )
     );
