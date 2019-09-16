@@ -7,6 +7,7 @@
  * Text Domain: wp_russia_regions_as_post
  * License: GPL-3
  * License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+ * Domain Path: /languages
  */
 
 if (!defined('WP_RUSSIA_REGIONS_AS_POST_POST_TYPE')) {
