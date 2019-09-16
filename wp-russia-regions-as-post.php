@@ -5,7 +5,7 @@ Description: Show a map of Russian regions
 Version: 1.0.0
 Author: petrozavodsky, anatolykulikov, soulseekah
 Text Domain: wp_russia_regions_as_post
-License: GPL-2.0+
+License: GPL-3
 */
 
 if (!defined('WP_RUSSIA_REGIONS_AS_POST_POST_TYPE')) {
