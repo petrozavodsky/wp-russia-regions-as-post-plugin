@@ -66,7 +66,7 @@ function wp_russia_regions_as_post_register()
         'menu_icon' => 'dashicons-location-alt',
         // порядок в меню
         'menu_position' => 30,
-        'supports' => array('title', 'editor', 'page-attributes'),
+        'supports' => array('title', 'editor', 'page-attributes','custom-fields'),
         'rewrite' => true,
         'show_admin_column' => true,
         'query_var' => true,
