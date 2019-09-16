@@ -96,7 +96,7 @@ function wp_russia_regions_as_post_add_map( $attrs ) {
 	if ( ! empty( $posts ) ): ?>
 		<?php echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
         <svg version="1.1"
-             id="russia_map"
+             class="wp_russia_regions_as_post-csv"
              xmlns="http://www.w3.org/2000/svg"
              xmlns:xlink="http://www.w3.org/1999/xlink"
              x="0px"
@@ -127,8 +127,8 @@ function wp_russia_regions_as_post_add_js_css() {
 
 	if ( is_singular() ) {
 		$post = get_post( get_queried_object_id() );
-
-		if ( has_shortcode( $post->post_content, 'wp_russia_regions_as_post_register' ) ) {
+		if ( has_shortcode( $post->post_content, 'wp_russia_regions_map' ) ) {
+		    		d(1);
 			wp_enqueue_style(
 				'wp_russia_regions_as_post_add_map_css',
 				plugin_dir_url( __FILE__ ) . "public/css/shortcode-style.css",
