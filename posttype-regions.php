@@ -21,7 +21,7 @@ function region_post_init() {
 		'show_ui' => true, // показывать интерфейс в админке
 		'show_in_rest' => true,
 		'exclude_from_search' => true,
-		'has_archive' => true, 
+		'has_archive' => true,
 		'hierarchical' => true,
 		'capability_type' => 'page',
 		'menu_icon' => 'dashicons-location-alt', // иконка в меню
@@ -46,7 +46,12 @@ function metakey_region_fields() {
 // код блока
 function ext_region_fields_box_func( $post ){
 ?>
-<textarea class="hidden" id="regioncode" name="ext_region[regioncode]" required ><?php echo get_post_meta($post->ID, 'regioncode', 1); ?></textarea>
+<input class="hidden" id="regioncode"
+       name="ext_region[regioncode]"
+       type="number"
+       required
+       value="<?php echo esc_attr(get_post_meta($post->ID, 'regioncode', true)); ?>"
+       />
 <input type="hidden" name="ext_region_fields_nonce" value="<?php echo wp_create_nonce(__FILE__); ?>" />
 <?php }
 
@@ -58,15 +63,23 @@ function metakey_region_fields_update( $post_id ){
 	if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE  ) return false; // если это автосохранение
 	if ( !current_user_can('edit_post', $post_id) ) return false; // если юзер не имеет право редактировать запись
 
-	if( !isset($_POST['ext_region']) ) return false; 
+	if( !isset($_POST['ext_region']) ) return false;
 
 	// Все ОК! Теперь, нужно сохранить/удалить данные
-	$_POST['ext_region'] = array_region('trim', $_POST['ext_region']);
+	$_POST['ext_region'] = array_map('trim', $_POST['ext_region']);
 	foreach( $_POST['ext_region'] as $key=>$value ){
 		if( empty($value) ){
 			delete_post_meta($post_id, $key); // удаляем поле если значение пустое
 			continue;
 		}
+
+        if ($key) {
+            update_post_meta($post_id, $key, intval($value)); // Приводим номер региона к числу
+        } else {
+            // А тут оставнлю на случай если может еще что то захочется сохранить
+            // update_post_meta($post_id, $key, $value);
+            // о валидации $value в этой секции надо позаботиться отдельно
+         }
 
 		update_post_meta($post_id, $key, $value); // add_post_meta() работает автоматически
 	}
