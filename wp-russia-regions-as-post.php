@@ -85,7 +85,7 @@ function wp_russia_regions_as_post_add_map( $attrs ) {
 		$attrs
 	);
 
-	$args  = array(
+	$args = array(
 		'post_type'      => WP_RUSSIA_REGIONS_AS_POST_POST_TYPE,
 		'posts_per_page' => - 1
 	);
@@ -119,6 +119,24 @@ function wp_russia_regions_as_post_add_map( $attrs ) {
 	<?php endif;
 
 	return ob_get_clean();
+}
+
+add_action( 'wp_footer', 'wp_russia_regions_as_post_add_js_css' );
+
+function wp_russia_regions_as_post_add_js_css() {
+
+	if ( is_singular() ) {
+		$post = get_post( get_queried_object_id() );
+
+		if ( has_shortcode( $post->post_content, 'wp_russia_regions_as_post_register' ) ) {
+			wp_enqueue_style(
+				'wp_russia_regions_as_post_add_map_css',
+				plugin_dir_url( __FILE__ ) . "public/css/shortcode-style.css",
+				[],
+				'1.0.0'
+			);
+		}
+	}
 }
 
 function wp_russia_regions_as_post_svg_kses( $string ) {
