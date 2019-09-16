@@ -14,3 +14,10 @@ if ( ! defined( 'WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY' ) ) {
 if ( ! defined( 'WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN' ) ) {
     define( 'WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN', 'wp_russia_regions_as_post' );
 }
+
+// Использовать функцию только внутри хука init
+add_action( 'init', 'wp_russia_regions_as_post_register' );
+
+function wp_russia_regions_as_post_register() {
+
+}
