@@ -29,10 +29,8 @@ function wp_russia_regions_as_post_register()
 {
     $labels = array(
         'name' => __('Regions', WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN),
-        // админ панель Добавить->Функцию
         'singular_name' => __('Region', WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN),
         'add_new' => __('Add region', WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN),
-        // заголовок тега <title>
         'add_new_item' => __('Add region', WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN),
         'edit_item' => __('To edit the region', WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN),
         'new_item' => __('New region', WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN),
@@ -41,7 +39,6 @@ function wp_russia_regions_as_post_register()
         'search_items' => __('Search region', WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN),
         'not_found' => __('Nothing', WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN),
         'not_found_in_trash' => __('Nothing', WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN),
-        // ссылка в меню в админке
         'menu_name' => __('Regions', WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN)
     );
     $args = array(
