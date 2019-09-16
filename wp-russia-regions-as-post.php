@@ -86,3 +86,14 @@ function wp_russia_regions_as_post_add_map() {
     <?php
     return ob_get_clean();
 }
+
+function wp_russia_regions_as_post_svg_kses( $string ) {
+    return wp_kses(
+        $string,
+        array(
+            'path' => array(
+                'd'     => true,
+            )
+        )
+    );
+}
