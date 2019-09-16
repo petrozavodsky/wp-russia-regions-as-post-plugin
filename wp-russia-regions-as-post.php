@@ -80,7 +80,7 @@ function wp_russia_regions_as_post_add_map( $attrs ) {
 
 	$attrs = shortcode_atts(
 		array(
-			'region_numbers' => false,
+			'region_numbers_highlight' => false,
 		),
 		$attrs
 	);
@@ -107,7 +107,16 @@ function wp_russia_regions_as_post_add_map( $attrs ) {
             <g transform="scale(0.68) translate(0, 0)">
 	            <?php
 	            foreach ( $posts as $post ): ?>
-                    <a href="<?php echo esc_url( get_permalink( $post->ID ) ); ?>">
+		            <?php
+		            $class = '';
+		            if ( ! empty( $attrs['region_numbers_highlight'] ) ) {
+			            $region_number = get_post_meta( $post->ID, '_region_number', false );
+			            if ( in_array( $attrs['region_numbers_highlight'], $region_number ) ) {
+				            $class = 'active';
+			            }
+		            }
+		            ?>
+                    <a href="<?php echo esc_url( get_permalink( $post->ID ) ); ?>" class="<?php echo $class;?>">
 			            <?php echo wp_russia_regions_as_post_svg_kses(
 				            get_post_meta( $post->ID, WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY, true )
 			            ); ?>
