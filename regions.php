@@ -3,7 +3,7 @@
     <g transform="scale(0.68) translate(0, 0)">
     <?php $query = new WP_Query(array('post_type' => 'region', 'posts_per_page' => -1)); while ($query->have_posts()) : $query->the_post(); ?>
         <a href="<?php echo esc_url(get_permalink(get_the_ID()));?>"
-           title="<?php echo esc_attr(get_the_title());?>">
+           title="<?php echo esc_attr(get_the_title(get_the_ID()));?>">
             <?php echo get_post_meta($post->ID, 'regioncode', 1); ?>
         </a>
     <?php endwhile; wp_reset_postdata(); ?>
