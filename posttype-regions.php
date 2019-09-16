@@ -80,8 +80,6 @@ function metakey_region_fields_update( $post_id ){
             // update_post_meta($post_id, $key, $value);
             // о валидации $value в этой секции надо позаботиться отдельно
          }
-
-		update_post_meta($post_id, $key, $value); // add_post_meta() работает автоматически
 	}
 	return $post_id;
 }
