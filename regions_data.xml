@@ -11,6 +11,8 @@
     <channel>
         <language>ru-RU</language>
         <wp:wxr_version>1.2</wp:wxr_version>
+        <wp:base_site_url>http://localhost/</wp:base_site_url>
+        <wp:base_blog_url>http://localhost/</wp:base_blog_url>
 
         <wp:author>
             <wp:author_id>1</wp:author_id>
