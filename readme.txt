@@ -1,6 +1,6 @@
 === Russian regions as post on svg map ===
 Contributors: petrozavodsky, anatolykulikov, soulseekah
-Donate link: https://github.com/petrozavodsky/wp-russia-regions-as-post
+Donate link: https://github.com/petrozavodsky/wp-russia-regions-as-post-plugin
 Tags: map, russian map, russian svg map, svg map
 Requires at least: 5.2.3
 Tested up to: 5.2.3
