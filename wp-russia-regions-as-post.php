@@ -14,8 +14,12 @@ if ( ! defined( 'WP_RUSSIA_REGIONS_AS_POST_POST_TYPE' ) ) {
 	define( 'WP_RUSSIA_REGIONS_AS_POST_POST_TYPE', 'region' );
 }
 
-if ( ! defined( 'WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY' ) ) {
-	define( 'WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY', '_region_code' );
+if ( ! defined( 'WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY_CODE' ) ) {
+	define( 'WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY_CODE', '_region_code' );
+}
+
+if ( ! defined( 'WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY_REGION_NUMBER' ) ) {
+	define( 'WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY_REGION_NUMBER', '_region_number' );
 }
 
 if ( ! defined( 'WP_RUSSIA_REGIONS_AS_POST_POST_TEXTDOMAIN' ) ) {
@@ -116,9 +120,9 @@ function wp_russia_regions_as_post_add_map( $attrs ) {
 			            }
 		            }
 		            ?>
-                    <a href="<?php echo esc_url( get_permalink( $post->ID ) ); ?>" class="<?php echo $class;?>">
+                    <a href="<?php echo esc_url( get_permalink( $post->ID ) ); ?>" class="<?php echo $class; ?>">
 			            <?php echo wp_russia_regions_as_post_svg_kses(
-				            get_post_meta( $post->ID, WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY, true )
+				            get_post_meta( $post->ID, WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY_CODE, true )
 			            ); ?>
                     </a>
 	            <?php endforeach; ?>
@@ -130,9 +134,9 @@ function wp_russia_regions_as_post_add_map( $attrs ) {
 	return ob_get_clean();
 }
 
-add_action( 'wp_footer', 'wp_russia_regions_as_post_add_js_css' );
+add_action( 'wp_footer', 'wp_russia_regions_as_post_add_css' );
 
-function wp_russia_regions_as_post_add_js_css() {
+function wp_russia_regions_as_post_add_css() {
 
 	if ( is_singular() ) {
 		$post = get_post( get_queried_object_id() );
@@ -158,5 +162,42 @@ function wp_russia_regions_as_post_svg_kses( $string ) {
 				'd'     => true,
 			)
 		)
+	);
+}
+
+add_filter( 'the_content', 'wp_russia_regions_as_post_add_region_map' );
+
+function wp_russia_regions_as_post_add_region_map( $content ) {
+
+	if ( is_singular( WP_RUSSIA_REGIONS_AS_POST_POST_TYPE ) ) {
+		add_action( 'wp_footer', 'wp_russia_regions_as_post_add_region_map_css' );
+		$post          = get_post( get_queried_object_id() );
+		$region_number = get_post_meta(
+			get_queried_object_id(),
+			WP_RUSSIA_REGIONS_AS_POST_POST_META_KEY_REGION_NUMBER,
+			false
+		);
+		$first_number  = false;
+
+		if ( is_array( $region_number ) && ! empty( $region_number ) ) {
+			$first_number = array_shift( $region_number );
+		}
+
+		$map = wp_russia_regions_as_post_add_map( [
+			'region_numbers_highlight' => $first_number
+		] );
+
+		return apply_filters( 'wp_russia_regions_as_post_add_region_map', $content . PHP_EOL . $map, $content, $map );
+	}
+
+	return $content;
+}
+
+function wp_russia_regions_as_post_add_region_map_css() {
+	wp_enqueue_style(
+		'wp_russia_regions_as_post_add_map_css',
+		plugin_dir_url( __FILE__ ) . "public/css/shortcode-style.css",
+		[],
+		'1.0.0'
 	);
 }
