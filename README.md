@@ -33,4 +33,4 @@
 
 ## UPD 
 
-Плагин [добавлен](https://wordpress.org/plugins/russian-regions-as-post-on-svg-map/) в официальный репозиторий на wordpress.org
+Плагин [добавлен](https://wordpress.org/plugins/russian-regions-as-post-on-svg-map/) в официальный репозиторий на wordpress.org.
