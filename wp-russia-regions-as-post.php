@@ -3,7 +3,7 @@
  * Plugin Name: Russian regions as post on svg map
  * Description: Show a map of Russian regions
  * Version: 1.0.1
- * Requires PHP: 5.3
+ * Requires PHP: 5.4
  * Author: petrozavodsky, anatolykulikov, soulseekah
  * Author URL: https://github.com/petrozavodsky/wp-russia-regions-as-post-plugin
  * Text Domain: wp_russia_regions_as_post
