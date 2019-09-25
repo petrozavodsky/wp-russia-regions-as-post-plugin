@@ -1,6 +1,5 @@
 
 ⓦ Russian regions as post on svg map [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2f7f4cba4d9747949419e95721ca6290)](https://www.codacy.com/manual/petrozavodsky/wp-russia-regions-as-post-plugin?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=petrozavodsky/wp-russia-regions-as-post-plugin&amp;utm_campaign=Badge_Grade)
-
 =======================  
   
 ## WordPress Плагин  
