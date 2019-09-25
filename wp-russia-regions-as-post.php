@@ -12,6 +12,10 @@
  * Domain Path: /languages
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( ! defined( 'WP_RUSSIA_REGIONS_AS_POST_POST_TYPE' ) ) {
 	define( 'WP_RUSSIA_REGIONS_AS_POST_POST_TYPE', 'region' );
 }
